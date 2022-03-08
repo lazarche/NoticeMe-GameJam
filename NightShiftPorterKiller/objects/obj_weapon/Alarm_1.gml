@@ -1,0 +1,2 @@
+/// @description Firerate
+canshoot = true;
