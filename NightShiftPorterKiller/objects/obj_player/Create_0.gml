@@ -32,7 +32,7 @@ camera = instance_create_layer(x, y, "Instances", obj_camera);
 
 //Gun
 gun = instance_create_layer(x, y, "Instances", obj_weapon);
-gun.idd = "rifle";
+gun.idd = "shotgun_armagedon";
 gun.carrier = self;
 
 global.bullets = 0;
