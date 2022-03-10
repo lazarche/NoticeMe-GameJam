@@ -14,6 +14,7 @@
     {"id":{"name":"spr_bullet_small","path":"sprites/spr_bullet_small/spr_bullet_small.yy",},"order":3,},
     {"id":{"name":"obj_shell","path":"objects/obj_shell/obj_shell.yy",},"order":3,},
     {"id":{"name":"spr_gun_temp","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"order":3,},
+    {"id":{"name":"obj_level_up","path":"objects/obj_level_up/obj_level_up.yy",},"order":10,},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},"order":1,},
     {"id":{"name":"Other","path":"scripts/Other/Other.yy",},"order":1,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":9,},

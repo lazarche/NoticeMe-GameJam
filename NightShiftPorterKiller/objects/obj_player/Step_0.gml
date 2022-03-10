@@ -32,7 +32,7 @@ switch(state) {
 #endregion
 
 #region Pucanje
-if(gamepad_button_check(controller_id, gp_shoulderr)){
+if(gamepad_button_check(controller_id, attack_button) && !obj_level_up.lvl_screen){
 	gun.shoot = 1;
 	spd_x = spd_x/2;
 	spd_y = spd_y/2;
@@ -107,6 +107,7 @@ switch(state){
 	break;
 	
 }
+
 	
 
 #endregion
@@ -114,3 +115,12 @@ switch(state){
 //Check for controller
 if(controller_id == 0)
 	controller_id = getFirstController();
+	
+
+//Test
+if(gamepad_button_check_pressed(controller_id, gp_shoulderlb) && !obj_level_up.lvl_screen)
+	if(level < 7){
+		level++;
+		obj_level_up.lvl_screen = true;
+	}
+
