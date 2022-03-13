@@ -21,6 +21,9 @@ if(lvl_screen){
 			else
 			obj_player.gun.idd = second_option;
 		
+		with(obj_player.gun){
+			alarm[0] = 1;
+		}
 		lvl_screen = false;
 	}
 		

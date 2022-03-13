@@ -11,7 +11,7 @@ if(carrier != noone) {
 
 if(shoot) {
 	
-	if(canshoot) {
+	if(canshoot) {// || gamepad_button_check_pressed(obj_player.controller_id, obj_player.attack_button)) {
 		if(image_yscale < 0) {
 			var spawn_x = x+lengthdir_x(pipe, dir-degre);
 			var spawn_y = y+lengthdir_y(pipe, dir-degre);
@@ -84,7 +84,7 @@ if(shoot) {
 		canshoot = false;
 		
 		
-		alarm[1] = room_speed/firerate;
+		alarm[1] = room_speed/(firerate*2);
 		
 		#endregion
 		

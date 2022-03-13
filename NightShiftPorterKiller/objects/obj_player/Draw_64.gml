@@ -1,3 +1,4 @@
 /// @description testing
-//draw_text(50, 30, ds_list_size(global.weapons));
+if(instance_exists(gun))
+draw_text(50, 30, gun.idd);
 
