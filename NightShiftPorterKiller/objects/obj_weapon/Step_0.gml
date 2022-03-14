@@ -39,6 +39,7 @@ if(shoot) {
 				bullet.who = carrier.object_index;
 				bullet.image_angle = dir;
 				bullet.depth = depth-2;
+				bullet.pierce = pierce;
 		
 				spd = 10
 				bullet.damage = damage;

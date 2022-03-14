@@ -16,13 +16,19 @@ spd_y = 0; //vertical component
 //Sprites
 spr_shoot = spr_buljavi_shoot;
 spr_walk = spr_buljavi_run;
+spr_die = spr_buljavi_death;
 
 
 //Other
-image_speed = 0.2;
+image_speed = 0.5;
 state = "walk";
 
 can_shoot = true;
 
+image_xscale = 1.2;
+image_yscale = 1.2;
 
 
+hp = 100;
+
+event_inherited();

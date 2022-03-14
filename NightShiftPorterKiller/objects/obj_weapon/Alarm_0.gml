@@ -5,6 +5,7 @@ sprite_index = sprite;
 ammo = GetItemProperty(idd, "ammo");
 firerate = GetItemProperty(idd, "firerate");
 damage = GetItemProperty(idd, "damage");
+pierce = GetItemProperty(idd, "pierce")
 pipe = GetItemProperty(idd, "pipe");
 degre = GetItemProperty(idd, "degre");
 accuracy = GetItemProperty(idd, "accuracy");
