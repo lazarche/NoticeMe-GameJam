@@ -1,1 +1,0 @@
-moving_direction = 0;

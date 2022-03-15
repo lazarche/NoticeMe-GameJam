@@ -1,5 +1,5 @@
 /// @description Initializing 
-
+show_debug_overlay(true)
 //Movement
 movespeed = 3;
 movespeed_max = 3;
@@ -45,3 +45,5 @@ gun = instance_create_layer(x, y, "Instances", obj_weapon);
 gun.idd = "pistol";
 gun.carrier = self;
 
+//test
+bullet_count = 0;

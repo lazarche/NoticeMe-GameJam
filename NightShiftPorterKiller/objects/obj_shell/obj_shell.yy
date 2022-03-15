@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bullet_shell",
+    "path": "sprites/spr_bullet_shell/spr_bullet_shell.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

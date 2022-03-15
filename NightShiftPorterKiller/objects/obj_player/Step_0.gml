@@ -1,6 +1,20 @@
 #region Input
+
 var lhaxis = gamepad_axis_value(controller_id, gp_axislh);
 var lvaxis = gamepad_axis_value(controller_id, gp_axislv);
+
+//Keyboard
+if(keyboard_check(ord("W")))
+	var lvaxis = -1;
+	else if(keyboard_check(ord("S")))
+	var lvaxis = 1;
+
+if(keyboard_check(ord("A")))
+	var lhaxis = -1;
+	else if(keyboard_check(ord("D")))
+	var lhaxis = 1;
+
+
 
 intensity = min(1, point_distance(0 ,0, lhaxis, lvaxis));
 moving_direction = point_direction(0, 0, lhaxis, lvaxis);
@@ -36,7 +50,7 @@ switch(state) {
 #endregion
 
 #region Pucanje
-if(gamepad_button_check(controller_id, attack_button) && !obj_level_up.lvl_screen){
+if((gamepad_button_check(controller_id, attack_button) || keyboard_check(ord("K"))) && !obj_level_up.lvl_screen){
 	gun.shoot = 1;
 	spd_x = spd_x/2;
 	spd_y = spd_y/2;
@@ -48,13 +62,20 @@ gun.shoot = 0;
 
 #region Collision
 //Horizontal collision
+
 if(place_meeting(x + spd_x, y, obj_solid))
 {
+	var temp = 0;
     while(!place_meeting(x + sign(spd_x), y, obj_solid))
     {
         x += sign(spd_x);
+		temp++;
+		if(temp > spd_x)
+			break;
+		
     }
     spd_x = 0;
+	
 }
 
 x += spd_x;
@@ -63,9 +84,13 @@ x = round(x);
 //Vertical collision
 if(place_meeting(x, y + spd_y, obj_solid))
 {
+	var temp = 0;
     while(!place_meeting(x, y + sign(spd_y), obj_solid))
     {
         y += sign(spd_y);
+		temp++;
+		if(temp > spd_y)
+			break;
     }
     spd_y = 0;
 }
@@ -77,7 +102,11 @@ y = round(y);
 #region Looking directions
 if(instance_exists(obj_enemy)){
 	if(gun.shoot == 0 && inst_nearest != noone)
-		inst_nearest = instance_nearest_visible(x, y, obj_enemy) //instance_nearest(x,y, obj_enemy);
+		inst_nearest = instance_nearest_visible(x, y, obj_enemy)//instance_nearest(x,y, obj_enemy);
+		else if(gun.shoot == 1  && inst_nearest != noone)
+			if(inst_nearest.state == "die")
+				inst_nearest = instance_nearest_visible(x, y, obj_enemy)
+		
 		if(instance_exists(inst_nearest)){
 			var looking_finish = point_direction(x,y, inst_nearest.x, inst_nearest.y)
 			var _diff = angle_difference(looking_finish, looking_direction)

@@ -5,6 +5,7 @@
 scr_weapons();
 
 global.sound_effects = true;
+global.sound_gain = 1;
 global.level = 1;
 
 room_goto_next();

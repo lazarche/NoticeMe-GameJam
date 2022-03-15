@@ -10,12 +10,12 @@ if(lvl_screen){
 	
 	if(second_option == "draza")
 		selected_option = 1;
-	
-	
-	if(lhaxis > 0.75)
-		selected_option = 2;
-		else if(lhaxis < -0.75)
-		selected_option = 1;
+		else {
+		if(lhaxis > 0.75)
+			selected_option = 2;
+			else if(lhaxis < -0.75)
+			selected_option = 1;
+		}
 		
 	if(selected_option != 0 && gamepad_button_check_pressed(obj_player.controller_id, obj_player.attack_button)) {
 		if(selected_option == 1)

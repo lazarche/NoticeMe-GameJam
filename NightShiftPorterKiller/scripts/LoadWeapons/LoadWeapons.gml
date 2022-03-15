@@ -513,7 +513,7 @@ ds_map_add(global.weapons,"shotgun_longbarrel_damage", shotgun_longbarrel_damage
 hmg = ds_map_create()
 ds_map_add(hmg,"name" , "HMG(Heavy Machine Gun)" );
 ds_map_add(hmg,"sprite" , spr_gun_temp);
-ds_map_add(hmg,"ammo", spr_bullet_medium);
+ds_map_add(hmg,"ammo", spr_bullet_big);
 ds_map_add(hmg,"firerate", 4); //Po sec
 ds_map_add(hmg,"accuracy", 3); //U stepenima
 ds_map_add(hmg,"damage", 20);
@@ -628,7 +628,7 @@ ds_map_add(sniper_heavy,"sprite" , spr_gun_temp);
 ds_map_add(sniper_heavy,"ammo", spr_bullet_big);
 ds_map_add(sniper_heavy,"firerate", 0.55); //Po sec
 ds_map_add(sniper_heavy,"accuracy", 0); //U stepenima
-ds_map_add(sniper_heavy,"damage", 11);
+ds_map_add(sniper_heavy,"damage", 120);
 ds_map_add(sniper_heavy,"pipe", 20);
 ds_map_add(sniper_heavy,"degre", 9);
 ds_map_add(sniper_heavy,"bulletCount", 1);

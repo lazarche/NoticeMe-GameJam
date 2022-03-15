@@ -48,14 +48,20 @@ if(hp <= 0) {
 
 #region Collision
 //Horizontal collision
+
 if(place_meeting(x + spd_x, y, obj_solid))
 {
-
+	var temp = 0;
     while(!place_meeting(x + sign(spd_x), y, obj_solid))
     {
         x += sign(spd_x);
+		temp++;
+		if(temp > spd_x)
+			break;
+		
     }
     spd_x = 0;
+	
 }
 
 x += spd_x;
@@ -64,19 +70,19 @@ x = round(x);
 //Vertical collision
 if(place_meeting(x, y + spd_y, obj_solid))
 {
+	var temp = 0;
     while(!place_meeting(x, y + sign(spd_y), obj_solid))
     {
         y += sign(spd_y);
-		//show_debug_message(y)
+		temp++;
+		if(temp > spd_y)
+			break;
     }
     spd_y = 0;
-	
 }
 
 y += spd_y;
 y = round(y);
-
-
 #endregion
 
 

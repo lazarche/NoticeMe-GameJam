@@ -1,5 +1,5 @@
-width = 1280;
-height = 720;
+width = 1280//960//;
+height = 720//540//;
 rate = 0.2;
 
 shake_force = 1;

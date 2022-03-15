@@ -29,6 +29,45 @@ if(shoot) {
 		#region Bullet
 		var offset = accuracy/bullet_count;
 		var counter = -floor(bullet_count/2);
+		var shell_id = 0;
+		var life = 60;
+		
+		switch(ammo) {
+					case spr_bullet_small: 
+						spd = 10 
+						play_sound(snd_bullet_small);
+						shell_id = 0;
+						life = 90;
+					break;
+					
+					case spr_bullet_medium: 
+						spd = 15 
+						play_sound(snd_bullet_medium);
+						shell_id = 1;
+						life = 110;
+					break;
+					
+					case spr_bullet_big: 
+						spd = 20 
+						play_sound(snd_bullet_big);
+						shell_id = 2;
+						life = 200;
+					break;
+					
+					case spr_bullet_pellet: 
+						spd = 9 
+						play_sound(snd_bullet_pellet);
+						shell_id = 3;
+						life = 60;
+					break;
+					
+					default: 
+					spd = 10;
+					
+					break;
+				}
+		
+		
 		repeat(bullet_count) {
 			if(bullet_count > 1){
 				//Shotguns
@@ -40,9 +79,8 @@ if(shoot) {
 				bullet.image_angle = dir;
 				bullet.depth = depth-2;
 				bullet.pierce = pierce;
-		
-				spd = 10
 				bullet.damage = damage;
+				bullet.alarm[0] = life;
 			
 
 				with(bullet) {
@@ -56,10 +94,11 @@ if(shoot) {
 				//Other
 				var bullet = instance_create_layer(spawn_x, spawn_y, "Instances", obj_bullet);	
 				bullet.sprite_index = ammo;
-				bullet.damage = damage;
+				bullet.damage = damage*0.5;
 				bullet.who = carrier.object_index;
 				bullet.image_angle = dir;
 				bullet.depth = depth-2;
+				bullet.alarm[0] = life;
 		
 				spd = 10
 				bullet.damage = damage;
@@ -76,12 +115,10 @@ if(shoot) {
 		
 		#region Shell particle
 		var shell = instance_create_layer(spawn_x, spawn_y, "Instances", obj_shell);	
-		shell.image_index = particle;
+		shell.image_index = shell_id = 0;;
 		shell.direction = random_range(dir-45-180, dir+45-180);
 		shell.image_angle = shell.direction;
 		
-		//if(global.sound_effects)
-			//audio_play_sound(sound, 1, 0)
 		canshoot = false;
 		
 		
