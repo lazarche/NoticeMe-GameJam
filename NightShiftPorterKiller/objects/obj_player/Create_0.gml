@@ -14,7 +14,7 @@ spd_y = 0; //vertical component
 level = 1;
 xp = 0;
 xp_tonext = 100;
-inst_levele = instance_create_layer(0, 0, "Instances", obj_level_up);
+inst_level = instance_create_layer(0, 0, "Instances", obj_level_up);
 
 
 inst_nearest = instance_nearest_visible(x, y, obj_enemy) //target

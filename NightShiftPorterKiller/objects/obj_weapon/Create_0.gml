@@ -20,7 +20,7 @@ carrier = noone;
 shoot = 0; // da li da puca
 canshoot = 1;
 
-scale = 2;
+scale = 1;
 
 image_xscale = scale;
 image_yscale = scale;

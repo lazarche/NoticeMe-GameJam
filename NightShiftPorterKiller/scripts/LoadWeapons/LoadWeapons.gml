@@ -62,7 +62,7 @@ ds_map_add(global.weapons,"pistol_damage", pistol_damage);
 #region Tier 3
 smg = ds_map_create()
 ds_map_add(smg,"name" , "SMG" );
-ds_map_add(smg,"sprite" , spr_gun_temp );
+ds_map_add(smg,"sprite" , spr_gun_smg );
 ds_map_add(smg,"ammo", spr_bullet_small);
 ds_map_add(smg,"firerate", 2.66); //Po sec
 ds_map_add(smg,"accuracy", 4); //U stepenima
@@ -78,7 +78,7 @@ ds_map_add(global.weapons,"smg", smg);
 
 rifle = ds_map_create()
 ds_map_add(rifle,"name" , "Rifle" );
-ds_map_add(rifle,"sprite" , spr_gun_temp );
+ds_map_add(rifle,"sprite" , spr_gun_rifle );
 ds_map_add(rifle,"ammo", spr_bullet_medium);
 ds_map_add(rifle,"firerate", 1); //Po sec
 ds_map_add(rifle,"accuracy", 2); //U stepenima
@@ -94,7 +94,7 @@ ds_map_add(global.weapons,"rifle", rifle);
 
 shotgun_short = ds_map_create()
 ds_map_add(shotgun_short,"name" , "Short Shotgun" );
-ds_map_add(shotgun_short,"sprite" , spr_gun_temp );
+ds_map_add(shotgun_short,"sprite" , spr_gun_shotgun_short);
 ds_map_add(shotgun_short,"ammo", spr_bullet_pellet);
 ds_map_add(shotgun_short,"firerate", 0.67); //Po sec
 ds_map_add(shotgun_short,"accuracy", 15); //U stepenima
@@ -114,7 +114,7 @@ ds_map_add(global.weapons,"shotgun_short", shotgun_short);
 
 smg_damage = ds_map_create()
 ds_map_add(smg_damage,"name" , "SMG(Damage Upgrade)" );
-ds_map_add(smg_damage,"sprite" , spr_gun_temp);
+ds_map_add(smg_damage,"sprite" , spr_gun_smg);
 ds_map_add(smg_damage,"ammo", spr_bullet_small);
 ds_map_add(smg_damage,"firerate", 2.67); //Po sec
 ds_map_add(smg_damage,"accuracy", 4); //U stepenima
@@ -130,7 +130,7 @@ ds_map_add(global.weapons,"smg_damage", smg_damage);
 
 smg_speed = ds_map_create()
 ds_map_add(smg_speed,"name" , "SMG (Speed Upgrade)" ); 
-ds_map_add(smg_speed,"sprite" , spr_gun_temp);
+ds_map_add(smg_speed,"sprite" , spr_gun_smg);
 ds_map_add(smg_speed,"ammo", spr_bullet_small);
 ds_map_add(smg_speed,"firerate", 3.33); //Po sec
 ds_map_add(smg_speed,"accuracy", 4); //U stepenima
@@ -146,7 +146,7 @@ ds_map_add(global.weapons,"smg_speed", smg_speed);
 
 rifle_speed = ds_map_create()
 ds_map_add(rifle_speed,"name" , "Rifle(Speed Upgrade)" );
-ds_map_add(rifle_speed,"sprite" , spr_gun_temp);
+ds_map_add(rifle_speed,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_speed,"ammo", spr_bullet_medium);
 ds_map_add(rifle_speed,"firerate", 1.33); //Po sec
 ds_map_add(rifle_speed,"accuracy", 2); //U stepenima
@@ -162,7 +162,7 @@ ds_map_add(global.weapons,"rifle_speed", rifle_speed);
 
 rifle_pierce = ds_map_create()
 ds_map_add(rifle_pierce,"name" , "Rifle (Pierce Upgrade)" );
-ds_map_add(rifle_pierce,"sprite" , spr_gun_temp);
+ds_map_add(rifle_pierce,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_pierce,"ammo", spr_bullet_medium);
 ds_map_add(rifle_pierce,"firerate", 1); //Po sec
 ds_map_add(rifle_pierce,"accuracy", 1); //U stepenima
@@ -178,7 +178,7 @@ ds_map_add(global.weapons,"rifle_pierce", rifle_pierce);
 
 shotgun_speed = ds_map_create()
 ds_map_add(shotgun_speed,"name" , "Shotgun (Speed Upgrade)" );
-ds_map_add(shotgun_speed,"sprite" , spr_gun_temp);
+ds_map_add(shotgun_speed,"sprite" , spr_gun_shotgun_short);
 ds_map_add(shotgun_speed,"ammo", spr_bullet_pellet);
 ds_map_add(shotgun_speed,"firerate", 1); //Po sec
 ds_map_add(shotgun_speed,"accuracy", 20); //U stepenima
@@ -194,7 +194,7 @@ ds_map_add(global.weapons,"shotgun_speed", shotgun_speed);
 
 shotgun_spray = ds_map_create()
 ds_map_add(shotgun_spray,"name" , "Shotgun (Spray Upgrade)" );
-ds_map_add(shotgun_spray,"sprite" , spr_gun_temp);
+ds_map_add(shotgun_spray,"sprite" , spr_gun_shotgun_short);
 ds_map_add(shotgun_spray,"ammo", spr_bullet_pellet);
 ds_map_add(shotgun_spray,"firerate", 0.67); //Po sec
 ds_map_add(shotgun_spray,"accuracy", 30); //U stepenima
@@ -215,7 +215,7 @@ ds_map_add(global.weapons,"shotgun_spray", shotgun_spray);
 
 lmg = ds_map_create()
 ds_map_add(lmg,"name" , "LMG" );
-ds_map_add(lmg,"sprite" , spr_gun_temp);
+ds_map_add(lmg,"sprite" , spr_gun_lmg);
 ds_map_add(lmg,"ammo", spr_bullet_medium);
 ds_map_add(lmg,"firerate", 4.33); //Po sec
 ds_map_add(lmg,"accuracy", 5); //U stepenima
@@ -231,7 +231,7 @@ ds_map_add(global.weapons,"lmg", lmg);
 
 smg_light = ds_map_create()
 ds_map_add(smg_light,"name" , "Light SMG" );
-ds_map_add(smg_light,"sprite" , spr_gun_temp);
+ds_map_add(smg_light,"sprite" , spr_gun_smg_light);
 ds_map_add(smg_light,"ammo", spr_bullet_small);
 ds_map_add(smg_light,"firerate", 4.5); //Po sec
 ds_map_add(smg_light,"accuracy", 4); //U stepenima
@@ -247,7 +247,7 @@ ds_map_add(global.weapons,"smg_light", smg_light);
 
 rifle_better = ds_map_create()
 ds_map_add(rifle_better,"name" , "Better Rifle" );
-ds_map_add(rifle_better,"sprite" , spr_gun_temp);
+ds_map_add(rifle_better,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_better,"ammo", spr_bullet_medium);
 ds_map_add(rifle_better,"firerate", 1.67); //Po sec
 ds_map_add(rifle_better,"accuracy", 2); //U stepenima
@@ -263,7 +263,7 @@ ds_map_add(global.weapons,"rifle_better", rifle_better);
 
 rifle_semi = ds_map_create()
 ds_map_add(rifle_semi,"name" , "Semi-Auto Rifle" );
-ds_map_add(rifle_semi,"sprite" , spr_gun_temp);
+ds_map_add(rifle_semi,"sprite" , spr_gun_rifle_semi);
 ds_map_add(rifle_semi,"ammo", spr_bullet_medium);
 ds_map_add(rifle_semi,"firerate", 0.83); //Po sec
 ds_map_add(rifle_semi,"accuracy", 1); //U stepenima
@@ -279,7 +279,7 @@ ds_map_add(global.weapons,"rifle_semi", rifle_semi);
 
 shotgun_auto = ds_map_create()
 ds_map_add(shotgun_auto,"name" , "Auto Shotgun" );
-ds_map_add(shotgun_auto,"sprite" , spr_gun_temp);
+ds_map_add(shotgun_auto,"sprite" , spr_gun_shotgun_auto);
 ds_map_add(shotgun_auto,"ammo", spr_bullet_pellet);
 ds_map_add(shotgun_auto,"firerate", 1.5); //Po sec
 ds_map_add(shotgun_auto,"accuracy", 20); //U stepenima
@@ -295,7 +295,7 @@ ds_map_add(global.weapons,"shotgun_auto", shotgun_auto);
 
 shotgun_longbarrel = ds_map_create()
 ds_map_add(shotgun_longbarrel,"name" , "Longbarrel Shotgun" );
-ds_map_add(shotgun_longbarrel,"sprite" , spr_gun_temp);
+ds_map_add(shotgun_longbarrel,"sprite" , spr_gun_shotgun_doublebarrel);
 ds_map_add(shotgun_longbarrel,"ammo", spr_bullet_pellet);
 ds_map_add(shotgun_longbarrel,"firerate", 0.67); //Po sec
 ds_map_add(shotgun_longbarrel,"accuracy", 25); //U stepenima
@@ -315,7 +315,7 @@ ds_map_add(global.weapons,"shotgun_longbarrel", shotgun_longbarrel);
 #region Tier 6
 lmg_damage = ds_map_create()
 ds_map_add(lmg_damage,"name" , "LMG (Damage Upgrade)" );
-ds_map_add(lmg_damage,"sprite" , spr_gun_temp);
+ds_map_add(lmg_damage,"sprite" , spr_gun_lmg);
 ds_map_add(lmg_damage,"ammo", spr_bullet_medium);
 ds_map_add(lmg_damage,"firerate", 4); //Po sec
 ds_map_add(lmg_damage,"accuracy", 5); //U stepenima
@@ -331,7 +331,7 @@ ds_map_add(global.weapons,"lmg_damage", lmg_damage);
 
 lmg_speed = ds_map_create()
 ds_map_add(lmg_speed,"name" , "LMG (Speed Upgrade)" );
-ds_map_add(lmg_speed,"sprite" , spr_gun_temp);
+ds_map_add(lmg_speed,"sprite" , spr_gun_lmg);
 ds_map_add(lmg_speed,"ammo", spr_bullet_medium);
 ds_map_add(lmg_speed,"firerate", 6); //Po sec
 ds_map_add(lmg_speed,"accuracy", 5); //U stepenima
@@ -347,7 +347,7 @@ ds_map_add(global.weapons,"lmg_speed", lmg_speed);
 
 smg_light_damage = ds_map_create()
 ds_map_add(smg_light_damage,"name" , "Light SMG (Damage Upgrade)" );
-ds_map_add(smg_light_damage,"sprite" , spr_gun_temp);
+ds_map_add(smg_light_damage,"sprite" , spr_gun_smg_light);
 ds_map_add(smg_light_damage,"ammo", spr_bullet_small);
 ds_map_add(smg_light_damage,"firerate", 4.5); //Po sec
 ds_map_add(smg_light_damage,"accuracy", 4); //U stepenima
@@ -363,7 +363,7 @@ ds_map_add(global.weapons,"smg_light_damage", smg_light_damage);
 
 smg_light_speed = ds_map_create()
 ds_map_add(smg_light_speed,"name" , "Light SMG (Attackspeed Upgrade)" );
-ds_map_add(smg_light_speed,"sprite" , spr_gun_temp);
+ds_map_add(smg_light_speed,"sprite" , spr_gun_smg_light);
 ds_map_add(smg_light_speed,"ammo", spr_bullet_small);
 ds_map_add(smg_light_speed,"firerate", 5.33); //Po sec
 ds_map_add(smg_light_speed,"accuracy", 4); //U stepenima
@@ -379,7 +379,7 @@ ds_map_add(global.weapons,"smg_light_speed", smg_light_speed);
 
 rifle_better_damage = ds_map_create()
 ds_map_add(rifle_better_damage,"name" , "Better Rifle (Damage Upgrade)" );
-ds_map_add(rifle_better_damage,"sprite" , spr_gun_temp);
+ds_map_add(rifle_better_damage,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_better_damage,"ammo", spr_bullet_medium);
 ds_map_add(rifle_better_damage,"firerate", 1.75); //Po sec
 ds_map_add(rifle_better_damage,"accuracy", 2); //U stepenima
@@ -395,7 +395,7 @@ ds_map_add(global.weapons,"rifle_better_damage", rifle_better_damage);
 
 rifle_better_speed = ds_map_create()
 ds_map_add(rifle_better_speed,"name" , "Better Rifle (Speed Ugrade)" );
-ds_map_add(rifle_better_speed,"sprite" , spr_gun_temp);
+ds_map_add(rifle_better_speed,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_better_speed,"ammo", spr_bullet_medium);
 ds_map_add(rifle_better_speed,"firerate", 7); //Po sec
 ds_map_add(rifle_better_speed,"accuracy", 2); //U stepenima
@@ -411,7 +411,7 @@ ds_map_add(global.weapons,"rifle_better_speed", rifle_better_speed);
 
 rifle_semi_damage = ds_map_create()
 ds_map_add(rifle_semi_damage,"name" , "Semi-Auto Rifle (Damage Upgrade)" );
-ds_map_add(rifle_semi_damage,"sprite" , spr_gun_temp);
+ds_map_add(rifle_semi_damage,"sprite" , spr_gun_rifle_semi);
 ds_map_add(rifle_semi_damage,"ammo", spr_bullet_big);
 ds_map_add(rifle_semi_damage,"firerate", 0.83); //Po sec
 ds_map_add(rifle_semi_damage,"accuracy", 1); //U stepenima
@@ -427,7 +427,7 @@ ds_map_add(global.weapons,"rifle_semi_damage", rifle_semi_damage);
 
 rifle_semi_pierce = ds_map_create()
 ds_map_add(rifle_semi_pierce,"name" , "Semi-Auto Rifle (Pierce Upgrade)" );
-ds_map_add(rifle_semi_pierce,"sprite" , spr_gun_temp);
+ds_map_add(rifle_semi_pierce,"sprite" , spr_gun_rifle_semi);
 ds_map_add(rifle_semi_pierce,"ammo", spr_bullet_medium);
 ds_map_add(rifle_semi_pierce,"firerate", 0.53); //Po sec
 ds_map_add(rifle_semi_pierce,"accuracy", 1); //U stepenima
@@ -443,7 +443,7 @@ ds_map_add(global.weapons,"rifle_semi_pierce", rifle_semi_pierce);
 
 shotgun_auto_damage = ds_map_create()
 ds_map_add(shotgun_auto_damage,"name" , "Auto-Shotgun (Damage Upgrade)" );
-ds_map_add(shotgun_auto_damage,"sprite" , spr_gun_temp);
+ds_map_add(shotgun_auto_damage,"sprite" , spr_gun_shotgun_auto);
 ds_map_add(shotgun_auto_damage,"ammo", spr_bullet_pellet);
 ds_map_add(shotgun_auto_damage,"firerate", 1.5); //Po sec
 ds_map_add(shotgun_auto_damage,"accuracy", 40); //U stepenima
@@ -459,7 +459,7 @@ ds_map_add(global.weapons,"shotgun_auto_damage", shotgun_auto_damage);
 
 shotgun_auto_speed = ds_map_create()
 ds_map_add(shotgun_auto_speed,"name" , "Auto-Shotgun (Speed Upgrade)" );
-ds_map_add(shotgun_auto_speed,"sprite" , spr_gun_temp);
+ds_map_add(shotgun_auto_speed,"sprite" , spr_gun_shotgun_auto);
 ds_map_add(shotgun_auto_speed,"ammo", spr_bullet_pellet);
 ds_map_add(shotgun_auto_speed,"firerate", 2); //Po sec
 ds_map_add(shotgun_auto_speed,"accuracy", 20); //U stepenima
@@ -475,7 +475,7 @@ ds_map_add(global.weapons,"shotgun_auto_speed", shotgun_auto_speed);
 
 shotgun_longbarrel_accuracy = ds_map_create()
 ds_map_add(shotgun_longbarrel_accuracy,"name" , "Longbarrel Shotgun (Accuracy Upgrade)" );
-ds_map_add(shotgun_longbarrel_accuracy,"sprite" , spr_gun_temp);
+ds_map_add(shotgun_longbarrel_accuracy,"sprite" , spr_gun_shotgun_doublebarrel);
 ds_map_add(shotgun_longbarrel_accuracy,"ammo", spr_bullet_pellet);
 ds_map_add(shotgun_longbarrel_accuracy,"firerate", 0.75); //Po sec
 ds_map_add(shotgun_longbarrel_accuracy,"accuracy", 10); //U stepenima
@@ -491,7 +491,7 @@ ds_map_add(global.weapons,"shotgun_longbarrel_accuracy", shotgun_longbarrel_accu
 
 shotgun_longbarrel_damage = ds_map_create()
 ds_map_add(shotgun_longbarrel_damage,"name" , "Longbarrel Shotgun (Damage Upgrade)" );
-ds_map_add(shotgun_longbarrel_damage,"sprite" , spr_gun_temp);
+ds_map_add(shotgun_longbarrel_damage,"sprite" , spr_gun_shotgun_doublebarrel);
 ds_map_add(shotgun_longbarrel_damage,"ammo", spr_bullet_pellet);
 ds_map_add(shotgun_longbarrel_damage,"firerate", 0.67); //Po sec
 ds_map_add(shotgun_longbarrel_damage,"accuracy", 20); //U stepenima
