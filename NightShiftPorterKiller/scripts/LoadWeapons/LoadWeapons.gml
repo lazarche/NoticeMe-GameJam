@@ -704,26 +704,6 @@ ds_map_add(global.weapons,"mini_cannon", mini_cannon);
 
 #endregion
 
-#region Other
-//smg_damage
-
-
-//Shotgun
-shotgun = ds_map_create()
-ds_map_add(shotgun,"name" , "Shotgun" );
-ds_map_add(shotgun,"sprite" , spr_gun_shotgun);
-ds_map_add(shotgun,"ammo", spr_bullet_pellet);
-ds_map_add(shotgun,"firerate", 1); //Po sec
-ds_map_add(shotgun,"accuracy", 5); //U stepenima
-ds_map_add(shotgun,"damage", 9);
-ds_map_add(shotgun,"pipe", 18);
-ds_map_add(shotgun,"degre", 9);
-ds_map_add(shotgun,"bulletCount", 5);
-ds_map_add(shotgun,"particle", 2);
-//ds_map_add(shotgun,"sound", snd_shotgun);
-ds_map_add(global.weapons,"shotgun", shotgun);
-
-#endregion
 }
 
 function GetItemProperty(idd, propertyy){

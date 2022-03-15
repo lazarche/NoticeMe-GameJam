@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 447,
+  "bbox_right": 287,
   "bbox_top": 0,
-  "bbox_bottom": 191,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 448,
-  "height": 192,
+  "width": 288,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1a8c20f6-4511-436f-ac32-c2b010b7f631","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1a8c20f6-4511-436f-ac32-c2b010b7f631","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"LayerId":{"name":"2f0bbd52-1454-425b-b933-6a6c6b30008d","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"tile_graveyard_wall","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","name":"1a8c20f6-4511-436f-ac32-c2b010b7f631","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d90b6b2d-428e-4fde-8122-17cd8032270b","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d90b6b2d-428e-4fde-8122-17cd8032270b","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"LayerId":{"name":"381c6941-8cd6-40b0-8d99-65777ea56261","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tile_graveyard_wall","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","name":"d90b6b2d-428e-4fde-8122-17cd8032270b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"tile_graveyard_wall","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c7f0056e-f9c4-4764-9477-2c247f147d45","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a8c20f6-4511-436f-ac32-c2b010b7f631","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7d23e210-6885-42c4-9b27-c6a9a7d259e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d90b6b2d-428e-4fde-8122-17cd8032270b","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2f0bbd52-1454-425b-b933-6a6c6b30008d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"381c6941-8cd6-40b0-8d99-65777ea56261","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
-  "bbox_right": 29,
-  "bbox_top": 11,
-  "bbox_bottom": 16,
+  "bbox_left": 22,
+  "bbox_right": 62,
+  "bbox_top": 23,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7f5e7db5-0c7d-45bb-a485-758c537e63cf","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f5e7db5-0c7d-45bb-a485-758c537e63cf","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"LayerId":{"name":"fca368d7-c726-4da0-9a82-d83558b712df","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gun_temp","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"resourceVersion":"1.0","name":"7f5e7db5-0c7d-45bb-a485-758c537e63cf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f58c7828-218f-49cf-868a-1c29e7c9aecf","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f58c7828-218f-49cf-868a-1c29e7c9aecf","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"LayerId":{"name":"470dc02a-93f8-4166-817e-d0df8dc7245e","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gun_temp","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"resourceVersion":"1.0","name":"f58c7828-218f-49cf-868a-1c29e7c9aecf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_gun_temp","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"70ad3034-1f25-4766-88d5-95050ef3b8f7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f5e7db5-0c7d-45bb-a485-758c537e63cf","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"91129542-e131-45e7-a424-e6715f58348f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f58c7828-218f-49cf-868a-1c29e7c9aecf","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 5,
-    "yorigin": 15,
+    "xorigin": 37,
+    "yorigin": 28,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gun_temp","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fca368d7-c726-4da0-9a82-d83558b712df","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"470dc02a-93f8-4166-817e-d0df8dc7245e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Guns",
-    "path": "folders/Sprites/Weapons/Guns.yy",
+    "name": "Tier1-3",
+    "path": "folders/Sprites/Weapons/Guns/Tier1-3.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gun_temp",

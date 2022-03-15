@@ -1,5 +1,5 @@
 //Drawing
-lvl_screen = true;
+lvl_screen = false;
 lvl_screen_draw = false;
 first_option = false;
 second_option = false;

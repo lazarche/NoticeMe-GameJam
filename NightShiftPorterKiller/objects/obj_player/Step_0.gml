@@ -16,9 +16,13 @@ spd_y = -sin(degtorad(moving_direction)) * intensity * movespeed;
 
 #region State
 if(state != "stun")
-	if(spd_x != 0 || spd_y != 0)
-		state = "walk";
-		else if(spd_x == 0 || spd_y == 0)
+	if(spd_x != 0 || spd_y != 0){
+		if(intensity <0.95)
+			state = "walk";
+			else
+			state = "run";
+		
+	}else if(spd_x == 0 || spd_y == 0)
 		state = "idle";
 
 switch(state) {
@@ -86,11 +90,13 @@ if(instance_exists(obj_enemy)){
 			looking_direction = 180;	
 	}
 		
-if(abs(angle_difference(0,looking_direction)) > 90)
+if(abs(angle_difference(0,looking_direction)) > 90){
+	image_speed = image_speed * -1;
 	image_xscale = -scale;
-	else 
+}else{ 
+	image_speed = image_speed * -1;
 	image_xscale = scale;
-
+}
 #endregion
 
 #region Animation
@@ -103,8 +109,12 @@ switch(state){
 	
 	case "walk":
 		sprite_index = spr_walk;
-		image_speed = 0.22*intensity;
+		image_speed = 0.5*intensity;
 	break;
+	
+	case "run":
+		sprite_index = spr_run;
+		image_speed = 0.29;
 	
 }
 

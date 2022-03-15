@@ -11,7 +11,7 @@ spd_x = 0; //horizontal component
 spd_y = 0; //vertical component
 
 //Stats
-level = 2;
+level = 1;
 xp = 0;
 xp_tonext = 100;
 inst_levele = instance_create_layer(0, 0, "Instances", obj_level_up);
@@ -22,6 +22,8 @@ inst_nearest = instance_nearest_visible(x, y, obj_enemy) //target
 //Sprites
 spr_idle = spr_player_idle;
 spr_walk = spr_player_walk;
+spr_run = spr_player_run;
+spr_die = spr_player_death;
 
 //Controls
 controller_id = getFirstController();
@@ -30,7 +32,7 @@ attack_button = gp_face4;
 //Other
 image_speed = 0.2;
 state = "idle";
-scale = 2;
+scale = 1;
 
 image_xscale = scale;
 image_yscale = scale;

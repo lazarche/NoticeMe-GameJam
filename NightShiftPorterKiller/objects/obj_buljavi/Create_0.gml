@@ -4,7 +4,7 @@
 movespeed = 2;
 movespeed_max = 2;
 
-moving_direction = 45//random(360);
+moving_direction = random(360);
 change_direction = false;
 
 

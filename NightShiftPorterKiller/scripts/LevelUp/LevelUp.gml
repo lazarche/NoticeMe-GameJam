@@ -47,8 +47,9 @@ function LevelOptions() {
 			options[0] = "shotgun_speed";
 			options[1] = "shotgun_spray";
 			break;
-		break;
 		}
+		break;
+		
 		
 		case 5:
 		//Tier 5
@@ -88,7 +89,7 @@ function LevelOptions() {
 			options[1] = "lmg_speed";
 			break;
 			
-			case "smg_speed":
+			case "smg_light":
 			options[0] = "smg_light_damage";
 			options[1] = "smg_light_speed";
 			break;
@@ -98,17 +99,17 @@ function LevelOptions() {
 			options[1] = "rifle_better_speed";
 			break;
 			
-			case "rifle_pierce":
+			case "rifle_semi":
 			options[0] = "rifle_semi_damage";
 			options[1] = "rifle_semi_pierce";
 			break;
 			
-			case "shotgun_speed":
+			case "shotgun_auto":
 			options[0] = "shotgun_auto_damage";
 			options[1] = "shotgun_auto_speed";
 			break;
 			
-			case "shotgun_spray":
+			case "shotgun_longbarrel":
 			options[0] = "shotgun_longbarrel_accuracy";
 			options[1] = "shotgun_longbarrel_damage";
 			break;

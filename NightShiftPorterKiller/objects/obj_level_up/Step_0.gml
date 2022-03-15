@@ -6,6 +6,8 @@ if(lvl_screen){
 	first_option = options[0];
 	second_option = options[1];
 	
+	show_debug_message(options)
+	
 	if(second_option == "draza")
 		selected_option = 1;
 	

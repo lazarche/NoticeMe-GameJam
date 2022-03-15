@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 10,
-  "bbox_right": 23,
-  "bbox_top": 11,
-  "bbox_bottom": 19,
+  "bbox_left": 25,
+  "bbox_right": 38,
+  "bbox_top": 28,
+  "bbox_bottom": 36,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0034c076-4ece-4839-b487-8f82feaed4c5","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0034c076-4ece-4839-b487-8f82feaed4c5","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"LayerId":{"name":"0e87f429-b972-413e-ad95-5a7fc9292240","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gun_pistol","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","name":"0034c076-4ece-4839-b487-8f82feaed4c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"31b3a279-5def-4513-9c6a-7b87ae81626e","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"31b3a279-5def-4513-9c6a-7b87ae81626e","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"LayerId":{"name":"e54afd4e-0d45-4ab1-9a02-ac0c83275ce6","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gun_pistol","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","name":"31b3a279-5def-4513-9c6a-7b87ae81626e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_gun_pistol","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f86b43ac-22ec-477e-be13-8343cd9bac42","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0034c076-4ece-4839-b487-8f82feaed4c5","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e5af879d-a5ee-4a1e-a304-e3b1474095ac","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"31b3a279-5def-4513-9c6a-7b87ae81626e","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 13,
-    "yorigin": 16,
+    "xorigin": 29,
+    "yorigin": 33,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gun_pistol","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0e87f429-b972-413e-ad95-5a7fc9292240","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e54afd4e-0d45-4ab1-9a02-ac0c83275ce6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Guns",
-    "path": "folders/Sprites/Weapons/Guns.yy",
+    "name": "Tier1-3",
+    "path": "folders/Sprites/Weapons/Guns/Tier1-3.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gun_pistol",

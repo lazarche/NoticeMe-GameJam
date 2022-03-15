@@ -93,6 +93,7 @@ if(place_meeting(x, y + spd_y, obj_solid))
     while(!place_meeting(x, y + sign(spd_y), obj_solid))
     {
         y += sign(spd_y);
+		//show_debug_message(y)
     }
     spd_y = 0;
 	
