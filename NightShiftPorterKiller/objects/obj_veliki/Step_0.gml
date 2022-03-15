@@ -1,4 +1,4 @@
-
+event_inherited();
 
 if(can_shoot && !collision_line(x, y, obj_player.x, obj_player.y, obj_solid, false, true) && state != "die") 
 state = "shoot";

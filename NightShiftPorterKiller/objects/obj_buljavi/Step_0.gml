@@ -1,4 +1,4 @@
-
+event_inherited();
 
 switch state {
 	case "walk":

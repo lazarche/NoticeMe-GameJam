@@ -15,7 +15,7 @@ function instance_nearest_visible(xx, yy, inst) {
 	var closest_enemy = instance_nearest(xx, yy, inst);
 	var closest_dist = 999999;
 	with(inst) {
-		if(!collision_line(x, y, xx, yy, obj_solid, false, true)) {
+		if(!collision_line(x, y, xx, yy, obj_solid, false, true) && state != "die") {
 			if(closest_dist > point_distance(x, y, xx, yy)) {
 				closest_dist = point_distance(x, y, xx, yy);
 				closest_enemy = self;
