@@ -161,6 +161,19 @@ switch(state){
 if(controller_id == 0)
 	controller_id = getFirstController();
 	
+	
+#region Blink Animation on Hit 
+
+if(hitted) {
+	imune_cur++;
+	if(imune_cur == imune_dur) {
+		hitted = false;
+		imune_cur = 0;
+		blink_slow = 4;
+	}
+}
+
+#endregion
 
 //Test
 if(gamepad_button_check_pressed(controller_id, gp_shoulderlb) && !obj_level_up.lvl_screen)
@@ -168,4 +181,3 @@ if(gamepad_button_check_pressed(controller_id, gp_shoulderlb) && !obj_level_up.l
 		level++;
 		obj_level_up.lvl_screen = true;
 	}
-

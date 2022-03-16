@@ -1,0 +1,2 @@
+focused = false;
+control = false;

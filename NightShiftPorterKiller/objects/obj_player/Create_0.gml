@@ -1,7 +1,7 @@
 /// @description Initializing 
 show_debug_overlay(true)
 //Movement
-movespeed = 3;
+movespeed = 4;
 movespeed_max = 3;
 moving_direction = 0;
 intensity = 0;
@@ -45,5 +45,10 @@ gun = instance_create_layer(x, y, "Instances", obj_weapon);
 gun.idd = "pistol";
 gun.carrier = self;
 
-//test
-bullet_count = 0;
+//Hp
+hitted = false;
+imune_dur = 90;
+imune_cur = 0;
+blink_slow = 5;
+blink_count = 0;
+hp = 100;

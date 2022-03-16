@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Enemy.yy",
+    "name": "EnemyHelpControl",
+    "path": "folders/Objects/Enemy/EnemyHelpControl.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_enemy_projectile",
