@@ -1,5 +1,4 @@
 /// @description Initializing 
-show_debug_overlay(true)
 //Movement
 movespeed = 4;
 movespeed_max = 3;

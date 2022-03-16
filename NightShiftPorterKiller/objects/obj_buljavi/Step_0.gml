@@ -50,7 +50,7 @@ switch state {
 		}
 		
 		can_shoot = false;
-		alarm[0] = random_range(80,100);
+		alarm[0] = random_range(70,100);
 		
 	} else if (round(image_index) == sprite_get_number(spr_shoot)-1) {
 		state = "walk";

@@ -4,7 +4,7 @@
 //load weapons
 scr_weapons();
 
-global.music = true;
+global.music = false;
 global.music_gain = 1;
 
 global.sound_effects = true;

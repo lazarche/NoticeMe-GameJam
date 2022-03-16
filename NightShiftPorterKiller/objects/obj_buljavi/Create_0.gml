@@ -21,7 +21,7 @@ spr_die = spr_buljavi_death;
 
 //Other
 image_speed = 0.5;
-state = "walk";
+state = "Z";
 
 can_shoot = true;
 

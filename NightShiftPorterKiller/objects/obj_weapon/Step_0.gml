@@ -67,7 +67,6 @@ if(shoot) {
 					break;
 				}
 		
-		
 		repeat(bullet_count) {
 			if(bullet_count > 1){
 				//Shotguns
@@ -115,7 +114,7 @@ if(shoot) {
 		
 		#region Shell particle
 		var shell = instance_create_layer(spawn_x, spawn_y, "Instances", obj_shell);	
-		shell.image_index = shell_id = 0;;
+		shell.image_index = shell_id;
 		shell.direction = random_range(dir-45-180, dir+45-180);
 		shell.image_angle = shell.direction;
 		
