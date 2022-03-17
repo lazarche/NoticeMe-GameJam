@@ -4,4 +4,8 @@ if(instance_exists(gun)) {
 	draw_sprite_ext(gun.sprite, 0, 100, 80, 5, 5, 0, c_white, 1);
 }
 
-draw_text(20, 120, "Hp: " + string(hp));
+var offset = 0;
+repeat(hp) {
+	draw_sprite(spr_ui_heart, 0, 900+offset, 50)	
+	offset += 32+hp_offset;
+}

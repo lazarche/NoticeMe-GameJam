@@ -50,4 +50,6 @@ imune_dur = 90;
 imune_cur = 0;
 blink_slow = 5;
 blink_count = 0;
-hp = 100;
+
+hp = 5;
+hp_offset = 16;

@@ -2,15 +2,15 @@ event_inherited();
 
 
 
-spr_walk = spr_bat_move;
-spr_hit = spr_bat_hit;
-spr_die = spr_bat_die;
+spr_walk = spr_spider_move;
+spr_hit = spr_spider_hit;
+spr_die = spr_spider_die;
 
-spr_waking = spr_skeleton_waking;
-spr_arming = spr_skeleton_arming;
+movespeed = 2;
+movespeed_max = 2;
 
-movespeed = 3;
-movespeed_max = 3;
+moving_dir = 0;
+intensity = 0.3;
 
 looking_direction = 0;
 player_visible = false;
@@ -27,3 +27,4 @@ image_speed = 0.2;
 state = "idle";
 
 can_shoot = true;
+
