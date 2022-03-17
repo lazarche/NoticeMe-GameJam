@@ -7,3 +7,13 @@ function draw_shadow(argument0) {
 	draw_set_alpha(1);
 
 }
+
+function draw_shadow_height(argument0, height) {
+	var _object = argument0;
+
+	draw_set_color(c_black);
+	draw_set_alpha(0.4);
+	draw_ellipse(x - _object.sprite_width/4, y + _object.sprite_height / 2-3 + height, x + _object.sprite_width/4, y + _object.sprite_height / 2+3 + height, false);
+	draw_set_alpha(1);
+
+}

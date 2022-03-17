@@ -95,6 +95,26 @@ if(place_meeting(x, y + spd_y, obj_solid))
 
 y += spd_y;
 y = round(y);
+
+
+distance_step += abs(spd_x) + abs(spd_y);
+
+if(distance_step > 45) {
+	
+	audio_sound_pitch(snd_player_step1, random_range(0.9,1));
+	audio_sound_pitch(snd_player_step2, random_range(0.9,1));
+	if(step)
+		play_sound(snd_player_step1);
+	else
+		play_sound(snd_player_step2);
+		
+	audio_sound_gain(snd_player_step1,0.06,0);
+	audio_sound_gain(snd_player_step2,0.06,0)
+	distance_step = 0;
+	step = !step;
+}
+
+
 #endregion
 
 #region Looking directions
@@ -141,13 +161,14 @@ switch(state){
 	break;
 	
 	case "walk":
+		
 		sprite_index = spr_walk;
 		image_speed = 0.5*intensity;
 	break;
 	
 	case "run":
 		sprite_index = spr_run;
-		image_speed = 0.29;
+		image_speed = 0.35;
 	break;
 		
 	case "die":

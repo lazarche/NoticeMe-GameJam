@@ -35,12 +35,12 @@ repeat(5-hp) {
 #endregion
 
 #region Highscore
-draw_sprite(spr_ui_highscore, 0, display_get_gui_width()-148, 8);
+draw_sprite(spr_ui_highscore, 0, display_get_gui_width()-192, 8);
 draw_set_font(fnt_highscore)
 
 var base = 10;
 var highscore = string(global.highscore);
-repeat(6) {
+repeat(7) {
 	if (floor(global.highscore / base) == 0) {
 		highscore = "0" + highscore;
 		
@@ -48,7 +48,7 @@ repeat(6) {
 	base = base * 10;
 }
 
-draw_text(display_get_gui_width()-145, 12, highscore);
+draw_text(display_get_gui_width()-184, 12, highscore);
 
 #endregion
 

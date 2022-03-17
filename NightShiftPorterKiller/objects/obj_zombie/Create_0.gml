@@ -1,4 +1,4 @@
-sevent_inherited();
+event_inherited();
 
 spr_walk = spr_zombie_walk;
 spr_hit = spr_zombie_hit;

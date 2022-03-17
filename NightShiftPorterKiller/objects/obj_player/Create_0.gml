@@ -5,6 +5,11 @@ movespeed_max = 3;
 moving_direction = 0;
 intensity = 0;
 looking_direction = 0;
+
+
+distance_step = 10;
+step = true;
+
 //Components
 spd_x = 0; //horizontal component
 spd_y = 0; //vertical component

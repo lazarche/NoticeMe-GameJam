@@ -16,4 +16,7 @@ global.weapon_id = "pistol";
 global.highscore = 0;
 global.hp = 5;
 
+
+
+
 room_goto_next();

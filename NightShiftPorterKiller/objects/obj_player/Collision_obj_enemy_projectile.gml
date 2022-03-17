@@ -4,4 +4,6 @@ if(!hitted && hp == 0) {
 	hp -= 1;
 	with(other)
 		instance_destroy();
+		
+	play_sound(snd_player_hit);
 }
