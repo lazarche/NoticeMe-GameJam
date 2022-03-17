@@ -1,12 +1,15 @@
 
 if((focused && control && gamepad_button_check_pressed(controller_id, gp_face4)))
 {
-	OnClick()
+	clicked = true;
+	alarm[1] = 7;
 }
+
 if(global.sound_effects)
-	image_index = 0;
+	sprite_index = spr_btn_sound_effect;
 	else
-	image_index = 1;
+	sprite_index = spr_btn_sound_effect_off;
+	
 	
 function OnClick() {
 	global.sound_effects = !global.sound_effects;

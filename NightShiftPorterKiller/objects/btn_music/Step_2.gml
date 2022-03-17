@@ -1,6 +1,7 @@
 if((focused && control && gamepad_button_check_pressed(controller_id, gp_face4)))
 {
-	OnClick()
+	clicked = true;
+	alarm[1] = 7;
 }
 
 
@@ -13,7 +14,9 @@ function OnClick() {
 }
 
 
+
 if(global.music)
-	image_index = 0;
+	sprite_index = spr_btn_music;
 	else
-	image_index = 1;
+	sprite_index = spr_btn_music_off;
+	

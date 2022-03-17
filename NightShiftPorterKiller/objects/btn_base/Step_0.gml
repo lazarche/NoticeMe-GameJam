@@ -27,7 +27,16 @@ if(focused && control) {
 	}
 }
 
+if(!focused)
+	clicked = false;
 
+if(focused && clicked){
+	image_index = 2;
+}else if(focused) {
+	image_index = 1;
+} else {
+	image_index = 0;
+}
 
 
 function ClosestButton(dir) {

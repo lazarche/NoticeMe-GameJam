@@ -1,4 +1,40 @@
 /// @description Draw
+
+
+function DrawWeaponCard(xx , yy, selected, gun_id) {
+	draw_sprite(spr_ui_weapon_card, 0, xx, yy);
+	draw_set_font(fnt_weapon_card_title)
+	var titlex = xx + sprite_get_width(spr_ui_weapon_card)/2 - string_width(GetItemProperty(gun_id, "name"))/2;
+	var titley = yy + 25;
+	draw_text(titlex, titley, GetItemProperty(gun_id, "name"));
+	draw_set_font(-1);
+	//Slika
+	var temp = GetItemProperty(gun_id, "sprite");
+	var picx = xx + sprite_get_width(spr_ui_weapon_card)/2;
+	var picy = titley + 100;
+	
+	var tempx = sprite_get_xoffset(temp);
+	var tempy = sprite_get_yoffset(temp);
+		
+	var centerx = sprite_get_width(temp)/2 - tempx;
+	var centery = sprite_get_height(temp)/2 - tempy;
+	
+	draw_sprite_ext(temp, 0, picx -centerx, picy-centery, 6, 6, 0, c_white, 1)
+	
+	//Stats
+	draw_set_font(fnt_weapon_card_stats)
+	var statx = xx + sprite_get_width(spr_ui_weapon_card)/2;
+	var staty = 250;
+	
+	draw_circle(statx, staty, 2, false);
+	
+	draw_text(xx + 32, staty, string(GetItemProperty(gun_id, "firerate")));
+
+}
+
+//DrawWeaponCard(50, 50, true, obj_player.gun.idd);
+
+
 if(lvl_screen_draw) {
 
 
@@ -48,3 +84,4 @@ draw_set_color(c_white);
 
 }
 }
+

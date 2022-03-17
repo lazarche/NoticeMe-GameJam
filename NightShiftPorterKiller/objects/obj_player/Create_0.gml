@@ -56,3 +56,4 @@ hp_offset = 16;
 //die
 gui_alpha = 1;
 death_screen_alpha = 0;
+you_died_alpha = 0;

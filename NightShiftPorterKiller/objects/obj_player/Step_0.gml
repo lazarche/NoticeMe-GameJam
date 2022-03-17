@@ -48,7 +48,7 @@ if(state != "die")
 #endregion
 
 #region Pucanje
-if((gamepad_button_check(controller_id, attack_button) || keyboard_check(ord("K"))) && !obj_level_up.lvl_screen){
+if((gamepad_button_check(controller_id, attack_button) || keyboard_check(ord("K"))) && state != "die" && !obj_level_up.lvl_screen){
 	gun.shoot = 1;
 	spd_x = spd_x/2;
 	spd_y = spd_y/2;

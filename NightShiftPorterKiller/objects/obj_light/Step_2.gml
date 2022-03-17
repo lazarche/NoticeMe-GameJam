@@ -1,0 +1,1 @@
+light_draw_circle(x, y, size+irandom_range(-2,2), $00928f,1);

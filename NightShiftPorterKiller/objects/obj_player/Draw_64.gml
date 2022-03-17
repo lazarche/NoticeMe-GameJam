@@ -16,7 +16,7 @@ if(instance_exists(gun)) {
 		var centery = sprite_get_height(gun.sprite)/2 - tempy;
 		
 	
-	draw_sprite_ext(gun.sprite, 0, 120 +0, display_get_gui_height()-80 +centery, 5, 5, 0, c_white, gui_alpha);
+	draw_sprite_ext(gun.sprite, 0, 120 +centerx, display_get_gui_height()-80 +centery, 7, 7, 0, c_white, gui_alpha);
 	//draw_circle(display_get_gui_width()-200, display_get_gui_height()-80, 2, false)
 }
 
@@ -58,6 +58,7 @@ draw_text(display_get_gui_width()-145, 12, highscore);
 if(state == "die" && gui_alpha < 0.1){
 	death_screen_alpha+= 0.01;
 	draw_set_alpha(death_screen_alpha);
+	draw_set_color($1c1b1c);
 	draw_rectangle(-5,-5,2000,2000,false);
 	
 	with(obj_enemy) {
@@ -67,6 +68,8 @@ if(state == "die" && gui_alpha < 0.1){
 }
 
 if(death_screen_alpha > 1) {
+	you_died_alpha += 0.08;
+	draw_set_alpha(you_died_alpha)
 	draw_set_font(fnt_die);
 	draw_set_color($323481);
 	draw_text(display_get_gui_width()/2-string_width("YOU DIED")/2, display_get_gui_height()/2-string_height("YOU DIED")/2, "YOU DIED");
