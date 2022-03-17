@@ -11,4 +11,9 @@ global.sound_effects = true;
 global.sound_gain = 1;
 global.level = 1;
 
+
+global.weapon_id = "pistol";
+global.highscore = 0;
+global.hp = 5;
+
 room_goto_next();

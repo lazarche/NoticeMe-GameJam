@@ -6,7 +6,6 @@ if(lvl_screen){
 	first_option = options[0];
 	second_option = options[1];
 	
-	show_debug_message(options)
 	
 	if(second_option == "draza")
 		selected_option = 1;
@@ -23,6 +22,7 @@ if(lvl_screen){
 			else
 			obj_player.gun.idd = second_option;
 		
+		global.weapon_id = obj_player.gun.idd;
 		with(obj_player.gun){
 			alarm[0] = 1;
 		}

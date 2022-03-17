@@ -1,5 +1,5 @@
 /// @description Draw self
-if(hitted) {
+if(hitted && state != "die") {
 	if(imune_cur % blink_slow == 1){
 		draw_self();
 	} else {

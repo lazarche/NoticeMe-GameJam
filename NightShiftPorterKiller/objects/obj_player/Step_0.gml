@@ -15,9 +15,14 @@ if(keyboard_check(ord("A")))
 	var lhaxis = 1;
 
 
+if(state != "die") {
+	intensity = min(1, point_distance(0 ,0, lhaxis, lvaxis));
+	moving_direction = point_direction(0, 0, lhaxis, lvaxis);
+} else {
+	intensity = 0;
+	moving_direction = 1;
+}
 
-intensity = min(1, point_distance(0 ,0, lhaxis, lvaxis));
-moving_direction = point_direction(0, 0, lhaxis, lvaxis);
 
 #endregion
 
@@ -29,7 +34,7 @@ spd_y = -sin(degtorad(moving_direction)) * intensity * movespeed;
 #endregion
 
 #region State
-if(state != "stun")
+if(state != "die")
 	if(spd_x != 0 || spd_y != 0){
 		if(intensity <0.95)
 			state = "walk";
@@ -38,13 +43,6 @@ if(state != "stun")
 		
 	}else if(spd_x == 0 || spd_y == 0)
 		state = "idle";
-
-switch(state) {
-	case "stun":
-	spd_x = 0;
-	spd_y = 0;
-	break;
-}
 	
 
 #endregion
@@ -100,7 +98,7 @@ y = round(y);
 #endregion
 
 #region Looking directions
-if(instance_exists(obj_enemy)){
+if(instance_exists(obj_enemy) && state != "die"){
 	if(gun.shoot == 0 && inst_nearest != noone)
 		inst_nearest = instance_nearest_visible(x, y, obj_enemy)//instance_nearest(x,y, obj_enemy);
 		else if(gun.shoot == 1  && inst_nearest != noone)
@@ -150,7 +148,26 @@ switch(state){
 	case "run":
 		sprite_index = spr_run;
 		image_speed = 0.29;
+	break;
+		
+	case "die":
+	gun.visible = false;
+	if(gui_alpha > 0) 
+		gui_alpha -= 0.014;
 	
+	with(obj_enemy)
+		target=noone;
+	
+		if(sprite_index != spr_die)
+			sprite_index = spr_die;
+		
+		if(round(image_index) == sprite_get_number(spr_die)-1)
+			image_speed = 0;
+		else 
+			image_speed = 0.15;
+			
+		
+	break;
 }
 
 	

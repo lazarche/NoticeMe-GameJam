@@ -21,8 +21,7 @@ switch state {
 			while(place_meeting(x+lengthdir_x(60, moving_direction), y+lengthdir_y(60,moving_direction), obj_solid)) {
 				moving_direction += pom*rng_dir;
 				if(angle_difference(start, moving_direction) < (pom * rng_dir)) {
-					//pom = floor(pom/2);
-					show_debug_message(pom);	
+					//pom = floor(pom/2);	
 				}
 			}
 		}

@@ -1,6 +1,6 @@
 /// @description Bullet collision
 colliding_bullet = instance_place(x, y, obj_bullet)
-if(colliding_bullet != noone) {
+if(colliding_bullet != noone && state != "die") {
 	
 	if(hitted != colliding_bullet.id) {
 		play_sound(snd_enemy_hit);

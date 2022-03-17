@@ -1,6 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-if(!hitted) {	
+/// @description Collision with enemy bullet
+if(!hitted && hp == 0) {	
 	hitted = true;
 	hp -= 1;
 	with(other)

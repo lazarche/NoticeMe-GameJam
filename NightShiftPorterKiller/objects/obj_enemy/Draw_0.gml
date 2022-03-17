@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draw self & hit
 draw_shadow(self);
 if(colliding_bullet != noone){
 	shader_set(shd_hit);

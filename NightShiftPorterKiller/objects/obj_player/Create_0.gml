@@ -41,7 +41,7 @@ camera = instance_create_layer(x, y, "Instances", obj_camera);
 
 //Gun
 gun = instance_create_layer(x, y, "Instances", obj_weapon);
-gun.idd = "pistol";
+gun.idd = global.weapon_id;
 gun.carrier = self;
 
 //Hp
@@ -50,6 +50,9 @@ imune_dur = 90;
 imune_cur = 0;
 blink_slow = 5;
 blink_count = 0;
-
-hp = 5;
+hp = global.hp;
 hp_offset = 16;
+
+//die
+gui_alpha = 1;
+death_screen_alpha = 0;

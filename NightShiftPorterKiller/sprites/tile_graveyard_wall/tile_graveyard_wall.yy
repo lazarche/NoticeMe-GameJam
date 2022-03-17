@@ -8,25 +8,25 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 287,
+  "bbox_right": 575,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 383,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 288,
-  "height": 64,
+  "width": 576,
+  "height": 496,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 64,
+  "gridY": 64,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d90b6b2d-428e-4fde-8122-17cd8032270b","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d90b6b2d-428e-4fde-8122-17cd8032270b","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"LayerId":{"name":"381c6941-8cd6-40b0-8d99-65777ea56261","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"tile_graveyard_wall","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","name":"d90b6b2d-428e-4fde-8122-17cd8032270b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4ceabb2d-2c7e-442f-944f-204ca599638c","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4ceabb2d-2c7e-442f-944f-204ca599638c","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"LayerId":{"name":"43062998-fca0-40eb-af07-566b111234a5","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tile_graveyard_wall","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","name":"4ceabb2d-2c7e-442f-944f-204ca599638c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"tile_graveyard_wall","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7d23e210-6885-42c4-9b27-c6a9a7d259e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d90b6b2d-428e-4fde-8122-17cd8032270b","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dbff3579-f9c0-489d-b615-1f617262f13c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ceabb2d-2c7e-442f-944f-204ca599638c","path":"sprites/tile_graveyard_wall/tile_graveyard_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"381c6941-8cd6-40b0-8d99-65777ea56261","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"43062998-fca0-40eb-af07-566b111234a5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
