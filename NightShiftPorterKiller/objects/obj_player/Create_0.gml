@@ -35,7 +35,7 @@ attack_button = gp_face4;
 
 //Other
 image_speed = 0.2;
-state = "idle";
+state = "pistol_speed";
 scale = 1;
 
 image_xscale = scale;

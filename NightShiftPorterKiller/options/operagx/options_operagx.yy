@@ -1,6 +1,6 @@
 {
-  "option_operagx_version": "0.0.0.4",
-  "option_operagx_next_version": "0.0.0.5",
+  "option_operagx_version": "0.0.0.6",
+  "option_operagx_next_version": "0.0.0.7",
   "option_operagx_game_name": "NightShiftPorterKiller",
   "option_operagx_interpolate_pixels": false,
   "option_operagx_scale": 0,

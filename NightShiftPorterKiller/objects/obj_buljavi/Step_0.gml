@@ -26,7 +26,7 @@ switch state {
 			}
 		}
 		
-		if(can_shoot && !collision_line(x, y, obj_player.x, obj_player.y, obj_solid, false, true) && round(image_index) == 0) {
+		if(can_shoot && !collision_line(x, y, obj_player.x, obj_player.y, obj_solid, false, true) && round(image_index) == 0 && distance_to_object(obj_player) < attack_range)  {
 			state = "shoot";
 		}
 	}

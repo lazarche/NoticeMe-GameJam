@@ -4,7 +4,7 @@
     "path": "sprites/spr_next_room/spr_next_room.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

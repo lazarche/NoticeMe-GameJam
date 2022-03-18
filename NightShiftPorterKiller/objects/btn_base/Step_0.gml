@@ -32,12 +32,18 @@ if(!focused)
 
 if(focused && clicked){
 	image_index = 2;
-}else if(focused) {
+}else if(focused || MouseHover()) {
+
 	image_index = 1;
 } else {
 	image_index = 0;
 }
 
+if(MouseHover())
+	with(btn_base) {
+		if(self != other)
+		focused = false;
+	}
 
 function ClosestButton(dir) {
 

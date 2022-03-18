@@ -17,6 +17,8 @@ global.highscore = 0;
 global.hp = 5;
 
 
-
+controller_id = 0;
 
 room_goto_next();
+
+last_focused = btn_start;

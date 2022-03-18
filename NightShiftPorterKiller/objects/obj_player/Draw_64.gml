@@ -47,7 +47,7 @@ repeat(7) {
 	}
 	base = base * 10;
 }
-
+draw_set_color(c_white);
 draw_text(display_get_gui_width()-184, 12, highscore);
 
 #endregion

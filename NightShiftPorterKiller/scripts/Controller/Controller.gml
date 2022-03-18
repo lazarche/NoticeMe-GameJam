@@ -17,7 +17,6 @@ for (var i = 0; i < gp_num; i++;)
 		n++
 	}	
 }
-show_debug_message(devices);
 if (array_length_1d(devices) == 0)
 	return undefined;
 	else

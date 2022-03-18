@@ -7,6 +7,7 @@ movespeed_max = 2;
 moving_direction = random(360);
 change_direction = false;
 
+attack_range = 500;
 
 
 //Components

@@ -18,6 +18,7 @@ range_stop = 0
 range_see = 300;
 
 target = noone;
+limited = true;
 
 
 path = 0;
