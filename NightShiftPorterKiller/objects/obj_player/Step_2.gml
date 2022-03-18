@@ -13,7 +13,7 @@ if(you_died_alpha > 1 && (gamepad_button_check_pressed(controller_id, attack_but
 	global.hp = 5;
 	global.weapon_id = "pistol";
 	global.stage = 0;
-	global.level = 0;
+	global.level = 1;
 	
 	room_goto(rm_menu);	
 }

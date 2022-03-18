@@ -22,6 +22,7 @@ if(focused && control) {
 		} else if (lvaxis > 0.5) {
 			temp = ClosestButton("down");
 		} 
+		play_sound(snd_button_hover)
 		temp.focused = true;
 		temp.alarm[0] = 20;		
 	}

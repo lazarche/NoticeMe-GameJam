@@ -1,6 +1,6 @@
 /// @description Move camera and shake
 
-if(true) 
+if(false) 
 {
 	if (mouse_wheel_up())
 		zoom += 0.05;

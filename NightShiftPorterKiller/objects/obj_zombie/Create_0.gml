@@ -18,7 +18,7 @@ range_see = 250;
 
 target = noone;
 
-hp = 100;
+hp = 90;
 
 path = 0;
 

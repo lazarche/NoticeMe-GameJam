@@ -1,6 +1,6 @@
 {
-  "option_operagx_version": "0.0.0.19",
-  "option_operagx_next_version": "0.0.0.20",
+  "option_operagx_version": "0.0.0.23",
+  "option_operagx_next_version": "0.0.0.24",
   "option_operagx_game_name": "The Day Shift Porter",
   "option_operagx_interpolate_pixels": false,
   "option_operagx_scale": 0,
@@ -10,7 +10,7 @@
   "option_operagx_team_name": "lazarche studio",
   "option_operagx_editUrl": "https://dc.gxc.gg/home/games/game/6981fc73-3506-445a-ba7b-a284cc5652e8/edit",
   "option_operagx_internalShareUrl": "https://gxc.gg/game/6981fc73-3506-445a-ba7b-a284cc5652e8?track=debbb85c-660c-4679-89a0-2e0d517d53bc",
-  "option_operagx_publicShareUrl": "https://gxc.gg/game/6981fc73-3506-445a-ba7b-a284cc5652e8?track=debbb85c-660c-4679-89a0-2e0d517d53bc",
+  "option_operagx_publicShareUrl": "https://gxc.gg/game/6981fc73-3506-445a-ba7b-a284cc5652e8?track=87966702-6119-450c-bb8c-b1735012b402",
   "resourceVersion": "1.0",
   "name": "operagx",
   "tags": [],

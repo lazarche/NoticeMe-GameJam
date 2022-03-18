@@ -39,7 +39,7 @@ switch(state)
 		var smer = point_direction(x, y, obj_player.x, obj_player.y);
 		var proj = get_bullet_at_player(3) //instance_create_layer(x, y, "Instances", obj_enemy_projectile);
 		if(proj != noone) {
-			proj.sprite_index = choose(spr_buljavi_projectile, spr_buljavi_projectile2);
+			proj.sprite_index = spr_bat_projectile;
 			proj.image_speed = 0.3;
 			proj.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
 			//proj.speed = 3;
