@@ -14,4 +14,5 @@ bang_alpha = 0;
 function Start() {
 	shake = true;
 	alarm[0] = 60
+	
 }
