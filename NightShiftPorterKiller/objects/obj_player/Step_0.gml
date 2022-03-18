@@ -119,24 +119,14 @@ if(distance_step > 45) {
 
 #region Looking directions
 if(instance_exists(obj_enemy) && state != "die"){
-	if(gun.shoot == 0 && inst_nearest != noone)
-		inst_nearest = instance_nearest_visible(x, y, obj_enemy)//instance_nearest(x,y, obj_enemy);
-		else if(gun.shoot == 1  && inst_nearest != noone)
-			if(instance_exists(inst_nearest))
-				if(inst_nearest.state == "die")
-					inst_nearest = instance_nearest_visible(x, y, obj_enemy)
-		
+	inst_nearest = instance_nearest_visible(x, y, obj_enemy);
+	if(inst_nearest != noone) {
 		if(instance_exists(inst_nearest)){
 			var looking_finish = point_direction(x,y, inst_nearest.x, inst_nearest.y)
 			var _diff = angle_difference(looking_finish, looking_direction)
 			looking_direction += _diff * 0.2; 
-		} else {
-			if(sign(spd_x) > 0)
-			looking_direction = 0;
-			else if(sign(spd_x) != 0)
-			looking_direction = 180;
+			} 	
 		}
-		
 	}else{
 		if(sign(spd_x) > 0)
 			looking_direction = 0;

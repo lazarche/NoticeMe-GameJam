@@ -5,7 +5,7 @@ function LevelUp(){
 }
 
 function LevelOptions() {
-	var lvl = obj_player.level;
+	var lvl = global.level;
 	var wpn = obj_player.gun.idd;
 	var options = [0,0];
 	

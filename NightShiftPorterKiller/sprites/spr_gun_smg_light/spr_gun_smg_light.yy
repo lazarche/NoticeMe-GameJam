@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 32,
+  "gridY": 32,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"02eaca7d-6b19-4da5-990b-2f3432712b56","path":"sprites/spr_gun_smg_light/spr_gun_smg_light.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"02eaca7d-6b19-4da5-990b-2f3432712b56","path":"sprites/spr_gun_smg_light/spr_gun_smg_light.yy",},"LayerId":{"name":"0001a9c4-aef6-4134-a47d-6040db9671db","path":"sprites/spr_gun_smg_light/spr_gun_smg_light.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

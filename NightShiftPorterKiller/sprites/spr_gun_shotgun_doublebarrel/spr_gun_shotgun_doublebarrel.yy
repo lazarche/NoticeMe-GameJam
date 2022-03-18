@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 32,
+  "gridY": 32,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"408b88da-1a5a-4c6d-b145-a4a1f63b1af5","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"408b88da-1a5a-4c6d-b145-a4a1f63b1af5","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"LayerId":{"name":"900fcaea-31e2-4960-abee-d42076acd760","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

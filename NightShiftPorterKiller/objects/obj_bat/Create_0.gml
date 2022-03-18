@@ -1,7 +1,5 @@
 event_inherited();
 
-
-
 spr_walk = spr_bat_move;
 spr_hit = spr_bat_hit;
 spr_die = spr_bat_die;

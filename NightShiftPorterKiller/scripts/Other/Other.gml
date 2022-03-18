@@ -12,7 +12,7 @@ function Approach(start, finish, step){
 }
 
 function instance_nearest_visible(xx, yy, inst) {
-	var closest_enemy = instance_nearest(xx, yy, inst);
+	var closest_enemy =  noone;//instance_nearest(xx, yy, inst);
 	var closest_dist = 999999;
 	with(inst) {
 		if(!collision_line(x, y, xx, yy, obj_solid, false, true) && state != "die") {
@@ -24,6 +24,6 @@ function instance_nearest_visible(xx, yy, inst) {
 			
 		}
 	}
-	//show_debug_message("Najblizi: " + string(closest_enemy) + " " + string(closest_dist));
+	show_debug_message("Najblizi: " + string(closest_enemy) + " " + string(closest_dist));
 	return closest_enemy;
 }

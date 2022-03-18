@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 32,
+  "gridY": 32,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"ee95d1d4-8175-4b8f-aa85-08682e527f33","path":"sprites/spr_gun_shotgun_auto/spr_gun_shotgun_auto.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ee95d1d4-8175-4b8f-aa85-08682e527f33","path":"sprites/spr_gun_shotgun_auto/spr_gun_shotgun_auto.yy",},"LayerId":{"name":"a4b8fe74-910a-4912-a136-a89a539c0139","path":"sprites/spr_gun_shotgun_auto/spr_gun_shotgun_auto.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
