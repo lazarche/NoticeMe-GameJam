@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 35,
+  "bbox_left": 42,
   "bbox_right": 89,
-  "bbox_top": 61,
-  "bbox_bottom": 69,
+  "bbox_top": 59,
+  "bbox_bottom": 71,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 32,
   "gridY": 32,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"408b88da-1a5a-4c6d-b145-a4a1f63b1af5","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"408b88da-1a5a-4c6d-b145-a4a1f63b1af5","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"LayerId":{"name":"900fcaea-31e2-4960-abee-d42076acd760","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gun_shotgun_doublebarrel","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"resourceVersion":"1.0","name":"408b88da-1a5a-4c6d-b145-a4a1f63b1af5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"da86f84a-94de-49b4-ba7f-874ec04d7812","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"da86f84a-94de-49b4-ba7f-874ec04d7812","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"LayerId":{"name":"2377f1d8-8eca-4026-bbe3-27937cbb0538","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gun_shotgun_doublebarrel","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"resourceVersion":"1.0","name":"da86f84a-94de-49b4-ba7f-874ec04d7812","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_gun_shotgun_doublebarrel","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ef799bf2-7130-4b49-bf25-18f28ae524f0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"408b88da-1a5a-4c6d-b145-a4a1f63b1af5","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d43496b9-f74b-4010-a8d1-a044fd669794","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da86f84a-94de-49b4-ba7f-874ec04d7812","path":"sprites/spr_gun_shotgun_doublebarrel/spr_gun_shotgun_doublebarrel.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"900fcaea-31e2-4960-abee-d42076acd760","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2377f1d8-8eca-4026-bbe3-27937cbb0538","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

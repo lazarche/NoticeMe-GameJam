@@ -5,7 +5,10 @@ if(!hitted && hp > 0) {
 	with(other)
 		instance_destroy();
 		
-	if(hp == 0)
+	if(hp == 0) {
 			state = "die";
+			audio_stop_all();
+			play_sound(snd_you_died)	
+		}
 	play_sound(snd_player_hit);
 }

@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 57,
-  "bbox_right": 70,
-  "bbox_top": 60,
-  "bbox_bottom": 68,
+  "bbox_left": 54,
+  "bbox_right": 72,
+  "bbox_top": 58,
+  "bbox_bottom": 70,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"038dcd53-2ae0-441f-af9c-e73fb0e56fcf","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"038dcd53-2ae0-441f-af9c-e73fb0e56fcf","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"LayerId":{"name":"99c401e4-986f-4843-87f8-35fa155204df","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gun_pistol","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","name":"038dcd53-2ae0-441f-af9c-e73fb0e56fcf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ec22703c-5fed-4008-927a-67ee91c58e60","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ec22703c-5fed-4008-927a-67ee91c58e60","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"LayerId":{"name":"06aaf31c-c973-46c0-a1f5-c63470233973","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gun_pistol","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","name":"ec22703c-5fed-4008-927a-67ee91c58e60","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_gun_pistol","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5df8a87a-495e-4916-bdad-25d9a78e875a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"038dcd53-2ae0-441f-af9c-e73fb0e56fcf","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dca0295a-c578-43e4-bd6c-c714cf3829d5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec22703c-5fed-4008-927a-67ee91c58e60","path":"sprites/spr_gun_pistol/spr_gun_pistol.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 61,
+    "xorigin": 58,
     "yorigin": 66,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"99c401e4-986f-4843-87f8-35fa155204df","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"06aaf31c-c973-46c0-a1f5-c63470233973","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

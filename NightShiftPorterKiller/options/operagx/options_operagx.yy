@@ -1,7 +1,7 @@
 {
-  "option_operagx_version": "0.0.0.16",
-  "option_operagx_next_version": "0.0.0.17",
-  "option_operagx_game_name": "NightShiftPorterKiller",
+  "option_operagx_version": "0.0.0.19",
+  "option_operagx_next_version": "0.0.0.20",
+  "option_operagx_game_name": "The Day Shift Porter",
   "option_operagx_interpolate_pixels": false,
   "option_operagx_scale": 0,
   "option_operagx_texture_page": "2048x2048",

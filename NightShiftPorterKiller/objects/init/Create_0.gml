@@ -4,7 +4,7 @@
 //load weapons
 scr_weapons();
 
-global.music = false;
+global.music = true;
 global.music_gain = 1;
 
 global.sound_effects = true;
@@ -17,14 +17,12 @@ global.highscore = 0;
 global.hp = 5;
 
 global.highscore_ci = "fd06d926-3bbc-422a-b1bd-0327ccdf368a";
-
-
-
 global.stage = 1;
 
 
 controller_id = 0;
 
 room_goto_next();
+
 
 last_focused = btn_start;

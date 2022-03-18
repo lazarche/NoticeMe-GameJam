@@ -4,16 +4,30 @@ draw_set_alpha(gui_alpha);
 
 #region Gun Draw
 if(instance_exists(gun)) {
-	draw_set_color($927a82);
-	draw_set_font(fnt_weapon_name)
-	if(120 - string_width(gun.name)/2) > 16
-		draw_text(120 - string_width(gun.name)/2, display_get_gui_height()-155, gun.name);
-		else 
-		draw_text(0, display_get_gui_height()-140, gun.name);
-		
 	draw_set_color(c_white);
+	draw_set_font(fnt_weapon_name)
+	
+	var xx = 130;
+	var yy = display_get_gui_height()-160;
+	
+	var text_xx = xx - string_width(gun.name)/2;
+	if(xx -  string_width(gun.name)/2 < 16)
+		text_xx = 16;
+	
+	draw_text(text_xx, yy, gun.name);
+		
 	draw_set_font(-1)
-			
+	
+	//Draw gun
+	yy += 100;
+	
+		var temp = gun.sprite_index;
+		var offset_x = sprite_get_xoffset(temp);
+		var offset_y = sprite_get_yoffset(temp);
+	
+		var fix_x = 64-offset_x;
+		var fix_y = 64-offset_y;
+	
 		var tempx = sprite_get_xoffset(gun.sprite);
 		var tempy = sprite_get_yoffset(gun.sprite);
 		
@@ -21,7 +35,7 @@ if(instance_exists(gun)) {
 		var centery = sprite_get_height(gun.sprite)/2 - tempy;
 		
 	
-	draw_sprite_ext(gun.sprite, 0, 120 +centerx, display_get_gui_height()-80 +centery, 7, 7, 0, c_white, gui_alpha);
+	draw_sprite_ext(gun.sprite, 0, xx +centerx - fix_x, yy + centery +fix_y, 7, 7, 0, c_white, gui_alpha);
 	//draw_circle(display_get_gui_width()-200, display_get_gui_height()-80, 2, false)
 }
 

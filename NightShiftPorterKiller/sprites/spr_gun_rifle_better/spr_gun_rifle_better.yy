@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 47,
-  "bbox_right": 89,
-  "bbox_top": 59,
-  "bbox_bottom": 74,
+  "bbox_left": 43,
+  "bbox_right": 84,
+  "bbox_top": 60,
+  "bbox_bottom": 72,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"827a0e65-6bd3-42c0-b7db-5c160a13ae85","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"827a0e65-6bd3-42c0-b7db-5c160a13ae85","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"LayerId":{"name":"8d609fbf-7760-4f56-aee8-7022a014a31b","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gun_rifle_better","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"resourceVersion":"1.0","name":"827a0e65-6bd3-42c0-b7db-5c160a13ae85","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8803f0a4-231b-4ed5-86fa-c7600864d26c","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8803f0a4-231b-4ed5-86fa-c7600864d26c","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"LayerId":{"name":"1268a809-bd70-428f-8410-f113dc28980a","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gun_rifle_better","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"resourceVersion":"1.0","name":"8803f0a4-231b-4ed5-86fa-c7600864d26c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_gun_rifle_better","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6daf6973-9405-43fa-9582-bc117040db9e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"827a0e65-6bd3-42c0-b7db-5c160a13ae85","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e63fe3f0-b238-4816-9231-e7b008ef2312","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8803f0a4-231b-4ed5-86fa-c7600864d26c","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 63,
-    "yorigin": 67,
+    "xorigin": 54,
+    "yorigin": 66,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gun_rifle_better","path":"sprites/spr_gun_rifle_better/spr_gun_rifle_better.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8d609fbf-7760-4f56-aee8-7022a014a31b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1268a809-bd70-428f-8410-f113dc28980a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

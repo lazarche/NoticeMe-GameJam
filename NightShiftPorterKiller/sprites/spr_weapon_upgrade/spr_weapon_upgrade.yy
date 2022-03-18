@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 31,
-  "bbox_top": 13,
-  "bbox_bottom": 30,
+  "bbox_left": 10,
+  "bbox_right": 53,
+  "bbox_top": 19,
+  "bbox_bottom": 47,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"87a45954-d207-4fb9-b6d2-b3b9c52f8e49","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"87a45954-d207-4fb9-b6d2-b3b9c52f8e49","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"LayerId":{"name":"4b4033e3-3aea-4ff0-b99c-484daa8a3621","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_upgrade","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"resourceVersion":"1.0","name":"87a45954-d207-4fb9-b6d2-b3b9c52f8e49","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9553ad06-c857-4fd5-a0f2-18b4c581a7d9","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9553ad06-c857-4fd5-a0f2-18b4c581a7d9","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"LayerId":{"name":"79cbb9af-cbcf-474f-8233-6f4cb5f96c33","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_weapon_upgrade","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"resourceVersion":"1.0","name":"9553ad06-c857-4fd5-a0f2-18b4c581a7d9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_weapon_upgrade","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"18afc690-fd99-41e8-b725-9f2f7b13dae5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"87a45954-d207-4fb9-b6d2-b3b9c52f8e49","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"11f0ed6b-d693-4c79-83e4-87c9fa5c2bb5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9553ad06-c857-4fd5-a0f2-18b4c581a7d9","path":"sprites/spr_weapon_upgrade/spr_weapon_upgrade.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4b4033e3-3aea-4ff0-b99c-484daa8a3621","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"79cbb9af-cbcf-474f-8233-6f4cb5f96c33","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

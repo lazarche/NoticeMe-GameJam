@@ -19,7 +19,7 @@ switch state {
 		}
 		
 		can_shoot = false;
-		alarm[0] = random_range(60,85);
+		alarm[0] = random_range(50,75);
 		
 	}
 	if(round(image_index) == sprite_get_number(spr_shoot)-1)
@@ -44,6 +44,8 @@ switch state {
 if(hp <= 0) {
 	hp = 0;
 	state = "die"
+	audio_sound_pitch(snd_veliki_die, random_range(0.95,1.1));
+	play_sound(snd_veliki_die);
 }
 
 #region Collision

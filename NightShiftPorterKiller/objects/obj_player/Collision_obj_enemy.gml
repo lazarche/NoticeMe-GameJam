@@ -4,8 +4,11 @@ if(!hitted) {
 		hp -= 1;
 		global.hp -= 1;
 		play_sound(snd_player_hit);
-		if(hp == 0)
+		if(hp == 0) {
 			state = "die";
+			audio_stop_all();
+			play_sound(snd_you_died)	
+		}
 	}
 	
 }

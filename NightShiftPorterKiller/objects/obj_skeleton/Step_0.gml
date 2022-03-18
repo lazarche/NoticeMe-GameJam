@@ -102,6 +102,7 @@ if(hp < 0) {
 	state = "die"
 	path_end();
 	speed = 0;
+	play_sound(snd_skeleton)
 }
 
 

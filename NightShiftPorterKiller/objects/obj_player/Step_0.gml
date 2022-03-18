@@ -164,15 +164,17 @@ switch(state){
 		
 	case "die":
 	gun.visible = false;
-	audio_stop_all();
+
 	if(gui_alpha > 0) 
 		gui_alpha -= 0.014;
 	
 	with(obj_enemy)
 		target=noone;
 	
-		if(sprite_index != spr_die)
+		if(sprite_index != spr_die) {
 			sprite_index = spr_die;
+			//Play death sound
+		}
 		
 		if(round(image_index) == sprite_get_number(spr_die)-1)
 			image_speed = 0;

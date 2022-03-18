@@ -31,6 +31,6 @@ image_xscale = 1.2;
 image_yscale = 1.2;
 
 
-hp = 300;
+hp = 400;
 
 event_inherited();

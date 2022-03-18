@@ -148,6 +148,8 @@ if(hp < 0) {
 	state = "die"
 	path_end();
 	speed = 0;
+	audio_sound_pitch(snd_bat_die, random_range(0.85,1.05));
+	play_sound(snd_spider_die);
 }
 
 
