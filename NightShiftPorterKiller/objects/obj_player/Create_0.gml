@@ -15,7 +15,7 @@ spd_x = 0; //horizontal component
 spd_y = 0; //vertical component
 
 //Stats
-level = 1;
+level = global.level;
 inst_level = instance_create_layer(0, 0, "Instances", obj_level_up);
 
 
@@ -45,6 +45,8 @@ camera = instance_create_layer(x, y, "Instances", obj_camera);
 //Gun
 gun = instance_create_layer(x, y, "Instances", obj_weapon);
 gun.idd = global.weapon_id;
+
+
 gun.carrier = self;
 
 //Hp

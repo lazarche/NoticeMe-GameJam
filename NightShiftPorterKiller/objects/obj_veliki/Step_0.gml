@@ -19,7 +19,7 @@ switch state {
 		}
 		
 		can_shoot = false;
-		alarm[0] = random_range(120,130);
+		alarm[0] = random_range(60,85);
 		
 	}
 	if(round(image_index) == sprite_get_number(spr_shoot)-1)

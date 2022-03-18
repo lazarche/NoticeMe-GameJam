@@ -174,6 +174,7 @@ switch(state){
 		
 	case "die":
 	gun.visible = false;
+	audio_stop_all();
 	if(gui_alpha > 0) 
 		gui_alpha -= 0.014;
 	

@@ -1,6 +1,20 @@
 /// @description Move camera and shake
 
-
+if(true) 
+{
+	if (mouse_wheel_up())
+		zoom += 0.05;
+		else if (mouse_wheel_down())
+		zoom -= 0.05;
+		
+	if(keyboard_check_direct(ord("Q")))
+		room_speed++;
+		else if (keyboard_check_direct(ord("E")))
+		room_speed--;
+		
+		
+	camera_set_view_size(view_camera[0], width*zoom, height*zoom);
+}
 
 
 var vpos_x = camera_get_view_x(view_camera[0]);

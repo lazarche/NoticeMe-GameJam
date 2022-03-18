@@ -16,6 +16,9 @@ global.weapon_id = "pistol";
 global.highscore = 0;
 global.hp = 5;
 
+global.highscore_ci = "fd06d926-3bbc-422a-b1bd-0327ccdf368a";
+
+
 
 global.stage = 1;
 

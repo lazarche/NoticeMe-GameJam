@@ -1,5 +1,5 @@
 /// @description Ciscenje nivoa
-if(!instance_exists(obj_enemy)){	
+if(!instance_exists(obj_enemy) && !instance_exists(obj_enemy_projectile)){	
 	if(!finish){
 		alarm[0] = opening_dur_max+60;
 		obj_camera.target = self;

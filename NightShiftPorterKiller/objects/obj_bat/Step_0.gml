@@ -37,15 +37,18 @@ switch(state)
 	//Udara
 	if(can_shoot){
 		var smer = point_direction(x, y, obj_player.x, obj_player.y);
-		var proj = instance_create_layer(x, y, "Instances", obj_enemy_projectile);
-		proj.sprite_index = choose(spr_buljavi_projectile, spr_buljavi_projectile2);
-		proj.image_speed = 0.3;
-		proj.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
-		proj.speed = 3;
-		proj.direction = smer;
+		var proj = get_bullet_at_player(3) //instance_create_layer(x, y, "Instances", obj_enemy_projectile);
+		if(proj != noone) {
+			proj.sprite_index = choose(spr_buljavi_projectile, spr_buljavi_projectile2);
+			proj.image_speed = 0.3;
+			proj.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
+			//proj.speed = 3;
+			//proj.direction = smer;
 		
-		can_shoot = false;
-		alarm[0] = choose(60,90);
+			can_shoot = false;
+			alarm[0] = choose(60,90);
+		}
+		
 	}
 	//Kraj
 	if(round(image_index) == sprite_get_number(spr_hit)-1) {

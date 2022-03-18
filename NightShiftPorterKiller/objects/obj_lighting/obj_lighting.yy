@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Control",
-    "path": "folders/Objects/Control.yy",
+    "name": "Generated",
+    "path": "folders/Objects/Control/Generated.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lighting",

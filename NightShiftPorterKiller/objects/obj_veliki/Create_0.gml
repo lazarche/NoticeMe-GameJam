@@ -24,13 +24,13 @@ spr_die = spr_veliki_death;
 image_speed = 0.25;
 state = "walk";
 
-can_shoot = can_shoot;
+can_shoot = false;
 alarm[0] = 70;
 
 image_xscale = 1.2;
 image_yscale = 1.2;
 
 
-hp = 200;
+hp = 300;
 
 event_inherited();

@@ -1,1 +1,1 @@
-next_room = rm_menu;
+next_room = rm_stage1_6;

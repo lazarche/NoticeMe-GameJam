@@ -8,4 +8,3 @@ if(colliding_bullet != noone){
 	draw_self();
 	
 
-draw_text(x, y, "Hp: " + string(hp));

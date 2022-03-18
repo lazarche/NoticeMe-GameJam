@@ -6,6 +6,8 @@ path = get_path_to(obj_player.x, obj_player.y);
 dist = round(distance_to_object(obj_player));
 player_visible = collision_line(x, y ,obj_player.x, obj_player.y, obj_solid, 1, 1)
 
+show_debug_message("Zombie: " + string(state));
+
 if(state != "die")
 switch(state)
 {

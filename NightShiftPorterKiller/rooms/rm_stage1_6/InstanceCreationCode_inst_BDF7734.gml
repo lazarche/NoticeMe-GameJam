@@ -1,0 +1,1 @@
+next_room = rm_stage1_7;
