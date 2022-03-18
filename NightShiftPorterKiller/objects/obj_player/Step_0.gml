@@ -15,7 +15,7 @@ if(keyboard_check(ord("A")))
 	var lhaxis = 1;
 
 
-if(state != "die") {
+if(state != "die" && !inst_level.lvl_screen) {
 	intensity = min(1, point_distance(0 ,0, lhaxis, lvaxis));
 	moving_direction = point_direction(0, 0, lhaxis, lvaxis);
 } else {

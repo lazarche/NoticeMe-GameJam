@@ -1,5 +1,6 @@
 /// @description Bullet collision
 hp = 100;
+max_hp = 100;
 hitted = 0;
 state = "walk";
 movespeed = 1;

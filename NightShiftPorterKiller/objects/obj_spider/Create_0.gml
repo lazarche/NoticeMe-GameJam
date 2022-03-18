@@ -1,6 +1,6 @@
 event_inherited();
 
-hp = 50;
+hp = 30;
 
 spr_walk = spr_spider_move;
 spr_hit = spr_spider_hit;
