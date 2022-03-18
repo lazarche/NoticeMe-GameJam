@@ -14,7 +14,8 @@ switch state {
 		spd_y = 0;
 		if(change_direction) {
 			change_direction = false;
-			moving_direction = random_range(moving_direction-30, moving_direction+30)
+			var play_angle = point_direction(x, y, obj_player.x, obj_player.y);
+			moving_direction = random_range(lerp(moving_direction,play_angle,50)-30, lerp(moving_direction,play_angle,50)+30)
 			var rng_dir = choose(-1,1)
 			var pom = 2;
 			var start = moving_direction;
@@ -43,7 +44,7 @@ switch state {
 			proj.sprite_index = choose(spr_buljavi_projectile, spr_buljavi_projectile2);
 			proj.image_speed = 0.3;
 			proj.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
-			proj.speed = 3;
+			proj.speed = 5;
 			proj.direction = smer+pom;
 			pom = choose(-2,2);
 		}

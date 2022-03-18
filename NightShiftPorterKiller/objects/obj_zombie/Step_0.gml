@@ -14,58 +14,6 @@ switch(state)
 	if(dist < range_see && !player_visible) {
 		target = obj_player;
 		state = "walk";	
-	} else {
-		
-		var spd_x;
-		var spd_y;
-		
-		if(random(20) > 18) {
-			moving_direction = random_range(0,360);
-			intensity = random_range(0.2, 0.5);	
-		}
-			
-		spd_x = cos(degtorad(moving_direction)) * intensity * movespeed;
-		spd_y = -sin(degtorad(moving_direction)) * intensity * movespeed;
-		
-		#region Collision
-//Horizontal collision
-
-if(place_meeting(x + spd_x, y, obj_solid))
-{
-	var temp = 0;
-    while(!place_meeting(x + sign(spd_x), y, obj_solid))
-    {
-        x += sign(spd_x);
-		temp++;
-		if(temp > spd_x)
-			break;
-		
-    }
-    spd_x = 0;
-	
-}
-
-x += spd_x;
-x = round(x);
-
-//Vertical collision
-if(place_meeting(x, y + spd_y, obj_solid))
-{
-	var temp = 0;
-    while(!place_meeting(x, y + sign(spd_y), obj_solid))
-    {
-        y += sign(spd_y);
-		temp++;
-		if(temp > spd_y)
-			break;
-    }
-    spd_y = 0;
-}
-
-y += spd_y;
-y = round(y);
-#endregion
-	
 		
 	}
 	break;
@@ -113,7 +61,13 @@ if(looking_direction > 90 && looking_direction < 270)
 #region Animation 
 
 switch(state) {
+	case "idle":
+		image_speed = 0.1;
+		sprite_index = spr_idle;
+		break;
+	
 	case "walk":
+		image_speed = 0.15;
 		sprite_index = spr_walk;
 	break;
 	
@@ -131,13 +85,6 @@ switch(state) {
 		sprite_index = spr_die;
 	break;
 	
-	case "waking":
-		sprite_index = spr_waking;
-	break;
-		
-	case "arming":
-		sprite_index = spr_arming;
-	break;
 	
 }
 

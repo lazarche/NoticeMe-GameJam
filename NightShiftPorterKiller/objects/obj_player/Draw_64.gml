@@ -4,10 +4,15 @@ draw_set_alpha(gui_alpha);
 
 #region Gun Draw
 if(instance_exists(gun)) {
+	draw_set_color($927a82);
+	draw_set_font(fnt_weapon_name)
 	if(120 - string_width(gun.name)/2) > 16
-		draw_text(120 - string_width(gun.name)/2, display_get_gui_height()-140, gun.name);
+		draw_text(120 - string_width(gun.name)/2, display_get_gui_height()-155, gun.name);
 		else 
 		draw_text(0, display_get_gui_height()-140, gun.name);
+		
+	draw_set_color(c_white);
+	draw_set_font(-1)
 			
 		var tempx = sprite_get_xoffset(gun.sprite);
 		var tempy = sprite_get_yoffset(gun.sprite);
@@ -25,11 +30,11 @@ if(instance_exists(gun)) {
 #region HP
 var offset = 0;
 repeat(hp) {
-	draw_sprite(spr_ui_heart, 0, 24+offset, 24)	
+	draw_sprite(spr_ui_heart, 0, 26+offset, 26)	
 	offset += 32+hp_offset;
 }
 repeat(5-hp) {
-	draw_sprite(spr_ui_heart, 1, 24+offset, 24)	
+	draw_sprite(spr_ui_heart, 1, 26+offset, 26)	
 	offset += 32+hp_offset;
 }
 #endregion
@@ -48,7 +53,7 @@ repeat(7) {
 	base = base * 10;
 }
 draw_set_color(c_white);
-draw_text(display_get_gui_width()-184, 12, highscore);
+draw_text(display_get_gui_width()-183, 16, highscore);
 
 #endregion
 
@@ -76,9 +81,11 @@ if(death_screen_alpha > 1) {
 	
 }
 
+
+
 draw_set_color(-1)
 draw_set_font(-1);
 draw_set_alpha(1);
 
 
-
+draw_sprite_ext(spr_ui_border, 0, 0, 0, 1, 1,  0, c_white, 1);

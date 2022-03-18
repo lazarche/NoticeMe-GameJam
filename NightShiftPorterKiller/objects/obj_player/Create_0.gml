@@ -16,8 +16,6 @@ spd_y = 0; //vertical component
 
 //Stats
 level = 1;
-xp = 0;
-xp_tonext = 100;
 inst_level = instance_create_layer(0, 0, "Instances", obj_level_up);
 
 
@@ -35,7 +33,7 @@ attack_button = gp_face4;
 
 //Other
 image_speed = 0.2;
-state = "pistol_speed";
+state = "pistol";
 scale = 1;
 
 image_xscale = scale;

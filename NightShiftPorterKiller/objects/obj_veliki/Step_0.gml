@@ -14,7 +14,7 @@ switch state {
 			proj.sprite_index = choose(spr_veliki_projectile1, spr_veliki_projectile2);
 			proj.image_speed = 0.3;
 			proj.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
-			proj.speed = 4;
+			proj.speed = 5;
 			proj.direction = smer+random_range(-25,25);
 		}
 		

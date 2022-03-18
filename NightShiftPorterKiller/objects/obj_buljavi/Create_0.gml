@@ -7,7 +7,7 @@ movespeed_max = 2;
 moving_direction = random(360);
 change_direction = false;
 
-attack_range = 500;
+attack_range = 600;
 
 
 //Components
@@ -24,7 +24,8 @@ spr_die = spr_buljavi_death;
 image_speed = 0.5;
 state = "Z";
 
-can_shoot = true;
+can_shoot = false;
+alarm[0] = 70;
 
 image_xscale = 1.2;
 image_yscale = 1.2;

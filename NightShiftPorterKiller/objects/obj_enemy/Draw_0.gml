@@ -7,4 +7,5 @@ if(colliding_bullet != noone){
 }else
 	draw_self();
 	
-	
+
+draw_text(x, y, "Hp: " + string(hp));

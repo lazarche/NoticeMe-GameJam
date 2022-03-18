@@ -3,6 +3,7 @@ event_inherited();
 spr_walk = spr_zombie_walk;
 spr_hit = spr_zombie_hit;
 spr_die = spr_zombie_die;
+spr_idle = spr_zombie_idle;
 
 movespeed = 2.2;
 movespeed_max = 2;

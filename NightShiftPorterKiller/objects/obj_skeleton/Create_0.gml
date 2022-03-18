@@ -19,6 +19,7 @@ range_see = 600;
 
 target = noone;
 
+hp = 250;
 
 path = 0;
 

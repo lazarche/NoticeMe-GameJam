@@ -108,8 +108,8 @@ if(distance_step > 45) {
 	else
 		play_sound(snd_player_step2);
 		
-	audio_sound_gain(snd_player_step1,0.06,0);
-	audio_sound_gain(snd_player_step2,0.06,0)
+	audio_sound_gain(snd_player_step1,0.08,0);
+	audio_sound_gain(snd_player_step2,0.08,0)
 	distance_step = 0;
 	step = !step;
 }
@@ -122,8 +122,9 @@ if(instance_exists(obj_enemy) && state != "die"){
 	if(gun.shoot == 0 && inst_nearest != noone)
 		inst_nearest = instance_nearest_visible(x, y, obj_enemy)//instance_nearest(x,y, obj_enemy);
 		else if(gun.shoot == 1  && inst_nearest != noone)
-			if(inst_nearest.state == "die")
-				inst_nearest = instance_nearest_visible(x, y, obj_enemy)
+			if(instance_exists(inst_nearest))
+				if(inst_nearest.state == "die")
+					inst_nearest = instance_nearest_visible(x, y, obj_enemy)
 		
 		if(instance_exists(inst_nearest)){
 			var looking_finish = point_direction(x,y, inst_nearest.x, inst_nearest.y)
@@ -213,9 +214,3 @@ if(hitted) {
 
 #endregion
 
-//Test
-if(gamepad_button_check_pressed(controller_id, gp_shoulderlb) && !obj_level_up.lvl_screen)
-	if(level < 7){
-		level++;
-		obj_level_up.lvl_screen = true;
-	}

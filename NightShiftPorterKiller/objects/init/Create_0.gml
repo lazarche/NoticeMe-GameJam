@@ -17,6 +17,9 @@ global.highscore = 0;
 global.hp = 5;
 
 
+global.stage = 1;
+
+
 controller_id = 0;
 
 room_goto_next();
