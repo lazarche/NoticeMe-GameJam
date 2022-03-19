@@ -2,6 +2,7 @@
 if(!hitted && hp > 0) {	
 	hitted = true;
 	hp -= 1;
+	global.hp -= 1;
 	with(other)
 		instance_destroy();
 		

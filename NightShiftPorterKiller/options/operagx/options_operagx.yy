@@ -1,6 +1,6 @@
 {
-  "option_operagx_version": "0.0.0.26",
-  "option_operagx_next_version": "0.0.0.27",
+  "option_operagx_version": "0.0.0.28",
+  "option_operagx_next_version": "0.0.0.29",
   "option_operagx_game_name": "The Day Shift Porter",
   "option_operagx_interpolate_pixels": false,
   "option_operagx_scale": 0,

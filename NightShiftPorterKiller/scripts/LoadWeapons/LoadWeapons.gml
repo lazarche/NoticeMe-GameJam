@@ -66,7 +66,7 @@ ds_map_add(smg,"sprite" , spr_gun_smg );
 ds_map_add(smg,"ammo", spr_bullet_small);
 ds_map_add(smg,"firerate", 2.66); //Po sec
 ds_map_add(smg,"accuracy", 4); //U stepenima
-ds_map_add(smg,"damage", 14);
+ds_map_add(smg,"damage", 15);
 ds_map_add(smg,"pipe", 8);
 ds_map_add(smg,"degre", 16);
 ds_map_add(smg,"bulletCount", 1);
@@ -82,7 +82,7 @@ ds_map_add(rifle,"sprite" , spr_gun_rifle );
 ds_map_add(rifle,"ammo", spr_bullet_medium);
 ds_map_add(rifle,"firerate", 1); //Po sec
 ds_map_add(rifle,"accuracy", 2); //U stepenima
-ds_map_add(rifle,"damage", 17);
+ds_map_add(rifle,"damage", 18.5);
 ds_map_add(rifle,"pipe", 8);
 ds_map_add(rifle,"degre", 16);
 ds_map_add(rifle,"bulletCount", 1);
@@ -118,7 +118,7 @@ ds_map_add(smg_damage,"sprite" , spr_gun_smg);
 ds_map_add(smg_damage,"ammo", spr_bullet_small);
 ds_map_add(smg_damage,"firerate", 2.67); //Po sec
 ds_map_add(smg_damage,"accuracy", 4); //U stepenima
-ds_map_add(smg_damage,"damage", 8.5);
+ds_map_add(smg_damage,"damage", 9.25);
 ds_map_add(smg_damage,"pipe", 20);
 ds_map_add(smg_damage,"degre", 9);
 ds_map_add(smg_damage,"bulletCount", 1);
@@ -134,7 +134,7 @@ ds_map_add(smg_speed,"sprite" , spr_gun_smg);
 ds_map_add(smg_speed,"ammo", spr_bullet_small);
 ds_map_add(smg_speed,"firerate", 3.33); //Po sec
 ds_map_add(smg_speed,"accuracy", 4); //U stepenima
-ds_map_add(smg_speed,"damage", 7);
+ds_map_add(smg_speed,"damage", 7.5);
 ds_map_add(smg_speed,"pipe", 20);
 ds_map_add(smg_speed,"degre", 9);
 ds_map_add(smg_speed,"bulletCount", 1);
@@ -150,7 +150,7 @@ ds_map_add(rifle_speed,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_speed,"ammo", spr_bullet_medium);
 ds_map_add(rifle_speed,"firerate", 1.33); //Po sec
 ds_map_add(rifle_speed,"accuracy", 2); //U stepenima
-ds_map_add(rifle_speed,"damage", 18);
+ds_map_add(rifle_speed,"damage", 19);
 ds_map_add(rifle_speed,"pipe", 20);
 ds_map_add(rifle_speed,"degre", 9);
 ds_map_add(rifle_speed,"bulletCount", 1);
@@ -166,7 +166,7 @@ ds_map_add(rifle_pierce,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_pierce,"ammo", spr_bullet_medium);
 ds_map_add(rifle_pierce,"firerate", 1); //Po sec
 ds_map_add(rifle_pierce,"accuracy", 1); //U stepenima
-ds_map_add(rifle_pierce,"damage", 18);
+ds_map_add(rifle_pierce,"damage", 19);
 ds_map_add(rifle_pierce,"pipe", 20);
 ds_map_add(rifle_pierce,"degre", 9);
 ds_map_add(rifle_pierce,"bulletCount", 1);
@@ -219,7 +219,7 @@ ds_map_add(lmg,"sprite" , spr_gun_lmg);
 ds_map_add(lmg,"ammo", spr_bullet_medium);
 ds_map_add(lmg,"firerate", 4.33); //Po sec
 ds_map_add(lmg,"accuracy", 5); //U stepenima
-ds_map_add(lmg,"damage", 8.5);
+ds_map_add(lmg,"damage", 9);
 ds_map_add(lmg,"pipe", 20);
 ds_map_add(lmg,"degre", 9);
 ds_map_add(lmg,"bulletCount", 1);
@@ -235,7 +235,7 @@ ds_map_add(smg_light,"sprite" , spr_gun_smg_light);
 ds_map_add(smg_light,"ammo", spr_bullet_small);
 ds_map_add(smg_light,"firerate", 4.5); //Po sec
 ds_map_add(smg_light,"accuracy", 4); //U stepenima
-ds_map_add(smg_light,"damage", 8.5);
+ds_map_add(smg_light,"damage", 9);
 ds_map_add(smg_light,"pipe", 20);
 ds_map_add(smg_light,"degre", 9);
 ds_map_add(smg_light,"bulletCount", 1);
@@ -251,7 +251,7 @@ ds_map_add(rifle_better,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_better,"ammo", spr_bullet_medium);
 ds_map_add(rifle_better,"firerate", 1.67); //Po sec
 ds_map_add(rifle_better,"accuracy", 2); //U stepenima
-ds_map_add(rifle_better,"damage", 22.5);
+ds_map_add(rifle_better,"damage", 24);
 ds_map_add(rifle_better,"pipe", 20);
 ds_map_add(rifle_better,"degre", 9);
 ds_map_add(rifle_better,"bulletCount", 1);
@@ -267,7 +267,7 @@ ds_map_add(rifle_semi,"sprite" , spr_gun_rifle_semi);
 ds_map_add(rifle_semi,"ammo", spr_bullet_medium);
 ds_map_add(rifle_semi,"firerate", 0.83); //Po sec
 ds_map_add(rifle_semi,"accuracy", 1); //U stepenima
-ds_map_add(rifle_semi,"damage", 45);
+ds_map_add(rifle_semi,"damage", 48);
 ds_map_add(rifle_semi,"pipe", 20);
 ds_map_add(rifle_semi,"degre", 9);
 ds_map_add(rifle_semi,"bulletCount", 1);
@@ -319,7 +319,7 @@ ds_map_add(lmg_damage,"sprite" , spr_gun_lmg);
 ds_map_add(lmg_damage,"ammo", spr_bullet_medium);
 ds_map_add(lmg_damage,"firerate", 4); //Po sec
 ds_map_add(lmg_damage,"accuracy", 5); //U stepenima
-ds_map_add(lmg_damage,"damage", 12.5);
+ds_map_add(lmg_damage,"damage", 13);
 ds_map_add(lmg_damage,"pipe", 20);
 ds_map_add(lmg_damage,"degre", 9);
 ds_map_add(lmg_damage,"bulletCount", 1);
@@ -335,7 +335,7 @@ ds_map_add(lmg_speed,"sprite" , spr_gun_lmg);
 ds_map_add(lmg_speed,"ammo", spr_bullet_medium);
 ds_map_add(lmg_speed,"firerate", 6); //Po sec
 ds_map_add(lmg_speed,"accuracy", 5); //U stepenima
-ds_map_add(lmg_speed,"damage", 8);
+ds_map_add(lmg_speed,"damage", 9);
 ds_map_add(lmg_speed,"pipe", 20);
 ds_map_add(lmg_speed,"degre", 9);
 ds_map_add(lmg_speed,"bulletCount", 1);
@@ -351,7 +351,7 @@ ds_map_add(smg_light_damage,"sprite" , spr_gun_smg_light);
 ds_map_add(smg_light_damage,"ammo", spr_bullet_small);
 ds_map_add(smg_light_damage,"firerate", 4.5); //Po sec
 ds_map_add(smg_light_damage,"accuracy", 4); //U stepenima
-ds_map_add(smg_light_damage,"damage", 11);
+ds_map_add(smg_light_damage,"damage", 12);
 ds_map_add(smg_light_damage,"pipe", 20);
 ds_map_add(smg_light_damage,"degre", 9);
 ds_map_add(smg_light_damage,"bulletCount", 1);
@@ -367,7 +367,7 @@ ds_map_add(smg_light_speed,"sprite" , spr_gun_smg_light);
 ds_map_add(smg_light_speed,"ammo", spr_bullet_small);
 ds_map_add(smg_light_speed,"firerate", 5.33); //Po sec
 ds_map_add(smg_light_speed,"accuracy", 4); //U stepenima
-ds_map_add(smg_light_speed,"damage", 8.5);
+ds_map_add(smg_light_speed,"damage", 9.5);
 ds_map_add(smg_light_speed,"pipe", 20);
 ds_map_add(smg_light_speed,"degre", 9);
 ds_map_add(smg_light_speed,"bulletCount", 1);
@@ -383,7 +383,7 @@ ds_map_add(rifle_better_damage,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_better_damage,"ammo", spr_bullet_medium);
 ds_map_add(rifle_better_damage,"firerate", 1.75); //Po sec
 ds_map_add(rifle_better_damage,"accuracy", 2); //U stepenima
-ds_map_add(rifle_better_damage,"damage", 28.5);
+ds_map_add(rifle_better_damage,"damage", 30);
 ds_map_add(rifle_better_damage,"pipe", 20);
 ds_map_add(rifle_better_damage,"degre", 9);
 ds_map_add(rifle_better_damage,"bulletCount", 1);
@@ -397,9 +397,9 @@ rifle_better_speed = ds_map_create()
 ds_map_add(rifle_better_speed,"name" , "Better Rifle (SPD UP)" );
 ds_map_add(rifle_better_speed,"sprite" , spr_gun_rifle);
 ds_map_add(rifle_better_speed,"ammo", spr_bullet_medium);
-ds_map_add(rifle_better_speed,"firerate", 7); //Po sec
-ds_map_add(rifle_better_speed,"accuracy", 2); //U stepenima
-ds_map_add(rifle_better_speed,"damage", 22);
+ds_map_add(rifle_better_speed,"firerate", 2.17); //Po sec
+ds_map_add(rifle_better_speed,"accuracy", 1); //U stepenima
+ds_map_add(rifle_better_speed,"damage", 24);
 ds_map_add(rifle_better_speed,"pipe", 20);
 ds_map_add(rifle_better_speed,"degre", 9);
 ds_map_add(rifle_better_speed,"bulletCount", 1);
@@ -415,7 +415,7 @@ ds_map_add(rifle_semi_damage,"sprite" , spr_gun_rifle_semi);
 ds_map_add(rifle_semi_damage,"ammo", spr_bullet_big);
 ds_map_add(rifle_semi_damage,"firerate", 0.83); //Po sec
 ds_map_add(rifle_semi_damage,"accuracy", 1); //U stepenima
-ds_map_add(rifle_semi_damage,"damage", 50);
+ds_map_add(rifle_semi_damage,"damage", 52);
 ds_map_add(rifle_semi_damage,"pipe", 20);
 ds_map_add(rifle_semi_damage,"degre", 9);
 ds_map_add(rifle_semi_damage,"bulletCount", 1);
@@ -431,7 +431,7 @@ ds_map_add(rifle_semi_pierce,"sprite" , spr_gun_rifle_semi);
 ds_map_add(rifle_semi_pierce,"ammo", spr_bullet_medium);
 ds_map_add(rifle_semi_pierce,"firerate", 0.53); //Po sec
 ds_map_add(rifle_semi_pierce,"accuracy", 1); //U stepenima
-ds_map_add(rifle_semi_pierce,"damage", 75);
+ds_map_add(rifle_semi_pierce,"damage", 77);
 ds_map_add(rifle_semi_pierce,"pipe", 20);
 ds_map_add(rifle_semi_pierce,"degre", 9);
 ds_map_add(rifle_semi_pierce,"bulletCount", 1);
