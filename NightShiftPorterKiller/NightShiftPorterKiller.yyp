@@ -96,6 +96,7 @@
     {"id":{"name":"spr_gun_shotgun_apocalypse","path":"sprites/spr_gun_shotgun_apocalypse/spr_gun_shotgun_apocalypse.yy",},"order":9,},
     {"id":{"name":"obj_shell","path":"objects/obj_shell/obj_shell.yy",},"order":3,},
     {"id":{"name":"spr_gun_temp","path":"sprites/spr_gun_temp/spr_gun_temp.yy",},"order":4,},
+    {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"order":5,},
     {"id":{"name":"btn_exit","path":"objects/btn_exit/btn_exit.yy",},"order":2,},
     {"id":{"name":"obj_level_up","path":"objects/obj_level_up/obj_level_up.yy",},"order":2,},
     {"id":{"name":"spr_gun_sniper_auto","path":"sprites/spr_gun_sniper_auto/spr_gun_sniper_auto.yy",},"order":6,},

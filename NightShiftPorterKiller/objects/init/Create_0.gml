@@ -1,7 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-//load weapons
 scr_weapons();
 
 global.music = true;
@@ -26,3 +23,4 @@ room_goto_next();
 
 
 last_focused = btn_start;
+
